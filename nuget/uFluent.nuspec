@@ -2,14 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>uFluent</id>
-        <version>0.2.0</version>
+        <version>0</version>
         <authors>mag</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Umbraco code-first inspired api</description>
+        <description>Fluent API to abstract from Umbraco's services.</description>
         <dependencies>
             <group>
                 <dependency id="UmbracoCms.Core" version="[6.1.6,7.0.0)" />
-				<dependency id="Ninject" version="3.2.2.0" />
             </group>
         </dependencies>
     </metadata>
