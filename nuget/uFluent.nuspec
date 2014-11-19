@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>uFluent</id>
+        <version>0.2.0</version>
+        <authors>mag</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Umbraco code-first inspired api</description>
+        <dependencies>
+            <group>
+                <dependency id="UmbracoCms.Core" version="[6.1.6,7.0.0)" />
+				<dependency id="Ninject" version="3.2.2.0" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\uFluent.Migrate\bin\Release\uFluent.dll" target="lib\uFluent.dll" />
+    </files>
+</package>
