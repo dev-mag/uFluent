@@ -14,6 +14,6 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="..\uFluent.Migrate\bin\Release\uFluent.dll" target="lib\uFluent.dll" />
+        <file src="..\uFluent\bin\Release\uFluent.dll" target="lib\uFluent.dll" />
     </files>
 </package>
