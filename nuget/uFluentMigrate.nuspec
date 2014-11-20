@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>uFluent.Migrate</id>
-        <version>0</version>
         <authors>dev-mag</authors>
+		<version>0.0</version>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Migration style means of executing uFluent Api code.</description>
         <dependencies>
             <group>
-				<dependency id="uFluent" version=""/>
+				<dependency id="uFluent"/>
 				<dependency id="Ninject" version="3.2.2.0" />
             </group>
         </dependencies>

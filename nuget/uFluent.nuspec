@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>uFluent</id>
-        <version>0</version>
-        <authors>mag</authors>
+		<authors>dev-mag</authors>
+        <version>0.0</version>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Fluent API to abstract from Umbraco's services.</description>
         <dependencies>
