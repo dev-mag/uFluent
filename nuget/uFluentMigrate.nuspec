@@ -8,7 +8,7 @@
         <description>Migration style means of executing uFluent Api code.</description>
         <dependencies>
             <group>
-				<dependency id="uFluent" />
+				<dependency id="uFluent" version=""/>
 				<dependency id="Ninject" version="3.2.2.0" />
             </group>
         </dependencies>
