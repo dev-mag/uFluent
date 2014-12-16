@@ -1,3 +1,11 @@
+###Nuget Packages
+####uFluent
+Url : **http://www.nuget.org/packages/uFluent/**
+Cmd : PM> Install-Package uFluent
+####uFluent.Migrate
+Url : **http://www.nuget.org/packages/uFluent.Migrate/**
+Cmd : PM> Install-Package uFluent.Migrate
+
 ##README
 
 ###TL;DR
