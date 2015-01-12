@@ -1,5 +1,4 @@
 ﻿using System;
-using uFluent.Annotations;
 using Umbraco.Core.Models;
 namespace uFluent.Persistence
 {
@@ -17,7 +16,7 @@ namespace uFluent.Persistence
         /// </summary>
         /// <param name="alias"></param>
         /// <returns></returns>
-        public DocumentType Get([NotNull]string alias)
+        public DocumentType Get(string alias)
         {
             var existingContentType = this.UmbracoUtils.ContentTypeService.GetContentType(alias);
 
@@ -39,7 +38,7 @@ namespace uFluent.Persistence
         /// <param name="alias">Alias. Cannot contain spaces or exotic punctuation.</param>
         /// <param name="name">Friendly document type name. Visible to content editors.</param>
         /// <returns></returns>
-        public DocumentType Create([NotNull]string alias, [NotNull]string name)
+        public DocumentType Create(string alias, string name)
         {
             var existingContentType = this.UmbracoUtils.ContentTypeService.GetContentType(alias);
 
