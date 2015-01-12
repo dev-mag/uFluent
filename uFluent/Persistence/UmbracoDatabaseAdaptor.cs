@@ -15,37 +15,37 @@ namespace uFluent.Persistence
             }
 
             var databaseContext = ApplicationContext.Current.DatabaseContext;
-            this.UmbracoDatabase = databaseContext.Database;
+            UmbracoDatabase = databaseContext.Database;
         }
 
         public object Insert(object poco)
         {
-            return this.UmbracoDatabase.Insert(poco);
+            return UmbracoDatabase.Insert(poco);
         }
 
         public int Delete<T>(string sql, params object[] args)
         {
-            return this.UmbracoDatabase.Delete<T>(sql, args);
+            return UmbracoDatabase.Delete<T>(sql, args);
         }
 
         public void Save(object poco)
         {
-            this.UmbracoDatabase.Save(poco);
+            UmbracoDatabase.Save(poco);
         }
 
         public void Delete(object poco)
         {
-            this.UmbracoDatabase.Delete(poco);
+            UmbracoDatabase.Delete(poco);
         }
 
         public void Update(object poco)
         {
-            this.UmbracoDatabase.Update(poco);
+            UmbracoDatabase.Update(poco);
         }
 
         public T SingleOrDefault<T>(string sql, params object[] args)
         {
-            return this.UmbracoDatabase.SingleOrDefault<T>(sql, args);
+            return UmbracoDatabase.SingleOrDefault<T>(sql, args);
         }
     }
 }

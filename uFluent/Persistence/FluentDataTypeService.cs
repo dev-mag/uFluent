@@ -10,12 +10,12 @@ namespace uFluent.Persistence
 
         public FluentDataTypeService(IUmbracoUtils umbracoUtils)
         {
-            this.UmbracoUtils = umbracoUtils;
+            UmbracoUtils = umbracoUtils;
         }
 
         public DataType Create(string name, string propertyEditor, DataTypeDatabaseType databaseType = DataTypeDatabaseType.Ntext)
         {
-            var allDataTypeDefinitions = this.UmbracoUtils.DataTypeService.GetAllDataTypeDefinitions();
+            var allDataTypeDefinitions = UmbracoUtils.DataTypeService.GetAllDataTypeDefinitions();
 
             if (allDataTypeDefinitions.Any(x => x.Name == name))
             {
@@ -24,21 +24,21 @@ namespace uFluent.Persistence
 
             var newDataTypeDefinition = new DataTypeDefinition(-1, new Guid(propertyEditor)) { Name = name, DatabaseType = databaseType };
 
-            this.UmbracoUtils.DataTypeService.Save(newDataTypeDefinition);
+            UmbracoUtils.DataTypeService.Save(newDataTypeDefinition);
 
-            return new DataType(newDataTypeDefinition, this.UmbracoUtils.UmbracoDatabase, this.UmbracoUtils.DataTypeService);
+            return new DataType(newDataTypeDefinition, UmbracoUtils.UmbracoDatabase, UmbracoUtils.DataTypeService);
         }
 
         public DataType Get(string name)
         {
-            var dataTypeDefinition = this.UmbracoUtils.DataTypeService.GetAllDataTypeDefinitions().FirstOrDefault(x => x.Name == name);
+            var dataTypeDefinition = UmbracoUtils.DataTypeService.GetAllDataTypeDefinitions().FirstOrDefault(x => x.Name == name);
 
             if (dataTypeDefinition == null)
             {
                 throw new FluentException(string.Format("The Data Type Definition `{0}` does not exist.", name));
             }
 
-            return new DataType(dataTypeDefinition, this.UmbracoUtils.UmbracoDatabase, this.UmbracoUtils.DataTypeService);
+            return new DataType(dataTypeDefinition, UmbracoUtils.UmbracoDatabase, UmbracoUtils.DataTypeService);
         }
     }
 }

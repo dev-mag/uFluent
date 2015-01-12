@@ -1,5 +1,4 @@
 ﻿using System;
-using uFluent.Annotations;
 using Umbraco.Core.Models;
 namespace uFluent.Persistence
 {
@@ -9,7 +8,7 @@ namespace uFluent.Persistence
 
         public FluentDocumentTypeService(IUmbracoUtils umbracoUtils)
         {
-            this.UmbracoUtils = umbracoUtils;
+            UmbracoUtils = umbracoUtils;
         }
 
         /// <summary>
@@ -17,16 +16,16 @@ namespace uFluent.Persistence
         /// </summary>
         /// <param name="alias"></param>
         /// <returns></returns>
-        public DocumentType Get([NotNull]string alias)
+        public DocumentType Get(string alias)
         {
-            var existingContentType = this.UmbracoUtils.ContentTypeService.GetContentType(alias);
+            var existingContentType = UmbracoUtils.ContentTypeService.GetContentType(alias);
 
             if (existingContentType == null)
             {
                 throw new InvalidOperationException(string.Format("Cannot get DocumentType `{0}` as it does not exist", alias));
             }
 
-            var documentType = new DocumentType(this.UmbracoUtils.ContentTypeService, this.UmbracoUtils.DataTypeService)
+            var documentType = new DocumentType(UmbracoUtils.ContentTypeService, UmbracoUtils.DataTypeService)
             {
                 UmbracoContentType = existingContentType
             };
@@ -39,16 +38,16 @@ namespace uFluent.Persistence
         /// <param name="alias">Alias. Cannot contain spaces or exotic punctuation.</param>
         /// <param name="name">Friendly document type name. Visible to content editors.</param>
         /// <returns></returns>
-        public DocumentType Create([NotNull]string alias, [NotNull]string name)
+        public DocumentType Create(string alias, string name)
         {
-            var existingContentType = this.UmbracoUtils.ContentTypeService.GetContentType(alias);
+            var existingContentType = UmbracoUtils.ContentTypeService.GetContentType(alias);
 
             if (existingContentType != null)
             {
                 throw new InvalidOperationException(string.Format("Cannot create DocumentType `{0}` as it already exists", alias));
             }
 
-            var newDocumentType = new DocumentType(this.UmbracoUtils.ContentTypeService, this.UmbracoUtils.DataTypeService);
+            var newDocumentType = new DocumentType(UmbracoUtils.ContentTypeService, UmbracoUtils.DataTypeService);
             newDocumentType.UmbracoContentType = new ContentType(-1) { Name = name, Alias = alias, Icon = "folder.gif" };
 
             newDocumentType.Save();
