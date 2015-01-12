@@ -244,7 +244,7 @@ namespace uFluent
         {
             if (UmbracoContentType.PropertyGroups.Contains(tabName))
             {
-                throw new InvalidOperationException("");
+                throw new InvalidOperationException(string.Format("DocumentType `{0}` already contains tab `{1}`", UmbracoContentType.Name, tabName));
             }
 
             var propertyGroup = new PropertyGroup { Name = tabName, SortOrder = sortOrder };
