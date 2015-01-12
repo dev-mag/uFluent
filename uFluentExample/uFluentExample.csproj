@@ -234,6 +234,11 @@
     <Content Include="config\applications.config" />
     <Content Include="config\404handlers.config" />
     <Content Include="config\uFluent.config" />
+    <Content Include="Views\article.cshtml" />
+    <Content Include="Views\category.cshtml" />
+    <Content Include="Views\Homepage.cshtml">
+      <SubType>Code</SubType>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
