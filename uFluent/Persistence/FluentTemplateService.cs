@@ -19,7 +19,7 @@ namespace uFluent.Persistence
                 throw new ArgumentNullException("umbracoUtils");
             }
 
-            this.UmbracoUtils = umbracoUtils;
+            UmbracoUtils = umbracoUtils;
         }
 
         public Template Create(string alias, string name)
@@ -29,9 +29,9 @@ namespace uFluent.Persistence
                 throw new ArgumentException("Template name must be specified", "name");
             }
 
-            this.UmbracoUtils.AliasValidator.Validate(alias);
+            UmbracoUtils.AliasValidator.Validate(alias);
 
-            if (this.UmbracoUtils.FileService.GetTemplate(alias) != null)
+            if (UmbracoUtils.FileService.GetTemplate(alias) != null)
             {
                 throw new FluentException(string.Format("Cannot create template `{0}` as it already exists", alias));
             }
@@ -42,9 +42,9 @@ namespace uFluent.Persistence
 
             var filePath = Path.Combine(HttpRuntime.AppDomainAppPath, "Views", string.Format("{0}.cshtml", alias));
 
-            if (System.IO.File.Exists(filePath))
+            if (File.Exists(filePath))
             {
-                fileContents = System.IO.File.ReadAllText(filePath);
+                fileContents = File.ReadAllText(filePath);
             }
             else
             {
@@ -53,22 +53,22 @@ namespace uFluent.Persistence
 
             template.Content = fileContents;
 
-            this.UmbracoUtils.FileService.SaveTemplate(template);
+            UmbracoUtils.FileService.SaveTemplate(template);
 
-            return new Template(template, this.UmbracoUtils.FileService);
+            return new Template(template, UmbracoUtils.FileService);
         }
 
         public Template Get(string alias)
         {
-            this.UmbracoUtils.AliasValidator.Validate(alias);
+            UmbracoUtils.AliasValidator.Validate(alias);
 
-            var template = this.UmbracoUtils.FileService.GetTemplate(alias);
+            var template = UmbracoUtils.FileService.GetTemplate(alias);
             if (template == null)
             {
                 throw new FluentException(string.Format("Cannot get template `{0}` as it does not exist", alias));
             }
 
-            return new Template(template, this.UmbracoUtils.FileService);
+            return new Template(template, UmbracoUtils.FileService);
         }
     }
 }
