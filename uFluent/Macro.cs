@@ -58,7 +58,7 @@ namespace uFluent
         {
             Log.DebugFormat("Deleting Macro property with alias {0}", alias);
 
-            var property = this.UmbracoDatabase.SingleOrDefault<MacroPropertyDto>(
+            var property = UmbracoDatabase.SingleOrDefault<MacroPropertyDto>(
                 "WHERE macroPropertyAlias = @alias", new {alias = alias});
 
             if (property == null)

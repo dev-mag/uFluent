@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Linq;
 using System.Reflection;
 using Newtonsoft.Json;
@@ -7,7 +6,6 @@ using Umbraco.Core.Models;
 using Umbraco.Core.Services;
 using uFluent.Dto;
 using uFluent.Persistence;
-using Umbraco.Core.Persistence;
 
 namespace uFluent
 {
@@ -24,8 +22,8 @@ namespace uFluent
             IDataTypeService dataTypeService)
         {
             DataTypeDefinition = dataTypeDefinition;
-            this.UmbracoDatabase = umbracoDatabase;
-            this.DataTypeService = dataTypeService;
+            UmbracoDatabase = umbracoDatabase;
+            DataTypeService = dataTypeService;
         }
 
         public DataType SetName(string name)
@@ -52,7 +50,7 @@ namespace uFluent
                 SortOrder = sortOrder
             };
 
-            this.UmbracoDatabase.Insert(dtpv);
+            UmbracoDatabase.Insert(dtpv);
 
             return this;
         }
@@ -67,35 +65,35 @@ namespace uFluent
                 SortOrder = sortOrder
             };
 
-            this.UmbracoDatabase.Insert(dtpv);
+            UmbracoDatabase.Insert(dtpv);
 
             return this;
         }
 
         public DataType DeleteAllPreValues()
         {
-            this.UmbracoDatabase.Delete<DataTypePreValueDto>("WHERE datatypeNodeId = @NodeId", new { NodeId = DataTypeDefinition.Id });
+            UmbracoDatabase.Delete<DataTypePreValueDto>("WHERE datatypeNodeId = @NodeId", new { NodeId = DataTypeDefinition.Id });
             return this;
         }
 
         public DataType Save()
         {
-            this.DataTypeService.Save(DataTypeDefinition);
+            DataTypeService.Save(DataTypeDefinition);
             return this;
         }
 
         public void Delete()
         {
-            var dataTypeDefinition = this.DataTypeService.GetAllDataTypeDefinitions().FirstOrDefault(x => x.Name == DataTypeDefinition.Name);
+            var dataTypeDefinition = DataTypeService.GetAllDataTypeDefinitions().FirstOrDefault(x => x.Name == DataTypeDefinition.Name);
 
             if (dataTypeDefinition == null)
             {
                 throw new FluentException(string.Format("The Data Type Definition `{0}` does not exist.", DataTypeDefinition.Name));
             }
 
-            this.UmbracoDatabase.Delete<DataTypePreValueDto>("WHERE datatypeNodeId = @NodeId", new { NodeId = DataTypeDefinition.Id });
+            UmbracoDatabase.Delete<DataTypePreValueDto>("WHERE datatypeNodeId = @NodeId", new { NodeId = DataTypeDefinition.Id });
 
-            this.DataTypeService.Delete(dataTypeDefinition);
+            DataTypeService.Delete(dataTypeDefinition);
         }
 
         private static FluentDataTypeService FluentDataTypeService
