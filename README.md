@@ -96,6 +96,13 @@ internal class MigrationList : IMigrationList
 }
 ```
 
+**Then - Enable migrations**
+Before we can run any migrations we need to modify the config\uFluent.config file to enable migrations.
+
+```XML
+<uFluent enableMigrations="true"/>
+```
+
 **Finally - Execute migrations on application started**
 Last but not least you must make a call to uFluentMigrate.Run() on the application started event handler as below.
 ```C#
@@ -103,6 +110,7 @@ public class ApplicationStartupHandler : ApplicationEventHandler
 {
     protected override void ApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
     {
+		base.ApplicationStarted(umbracoApplication, applicationContext);
         uFluentMigrate.Run();
     }
 }
