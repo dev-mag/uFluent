@@ -233,6 +233,7 @@
     <Content Include="config\BaseRestExtensions.config" />
     <Content Include="config\applications.config" />
     <Content Include="config\404handlers.config" />
+    <Content Include="config\uFluent.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -254,7 +255,24 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\ApplicationStartupHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uFluent.Migrate\MigrationList.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\Article.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\Category.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\HomePage.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\HomePageAdditions.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\uFluent.Migrate\uFluent.Migrate.csproj">
+      <Project>{372b0b83-bbaa-402e-9637-b5862d578744}</Project>
+      <Name>uFluent.Migrate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\uFluent\uFluent.csproj">
+      <Project>{9bd82fb6-fcfa-4ccd-8ec6-d721bf7b41ca}</Project>
+      <Name>uFluent</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
