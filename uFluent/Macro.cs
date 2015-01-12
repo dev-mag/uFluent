@@ -3,7 +3,6 @@ using System.Linq;
 using log4net;
 using uFluent.Dto;
 using umbraco.cms.businesslogic.macro;
-using Umbraco.Core.Persistence;
 using uFluent.Persistence;
 
 namespace uFluent
@@ -18,7 +17,7 @@ namespace uFluent
 
         private Macro(IUmbracoDatabaseAdaptor umbracoDatabase)
         {
-            this.UmbracoDatabase = umbracoDatabase;
+            UmbracoDatabase = umbracoDatabase;
         }
 
         internal Macro(string alias,
@@ -40,21 +39,19 @@ namespace uFluent
             _macroDto = macroDto;
         }
 
-        public void Save()
+        public Macro Save()
         {
-            this.UmbracoDatabase.Save(_macroDto);
+            UmbracoDatabase.Save(_macroDto);
 
-            FireAfterSave();
+            return this;
         }
 
         public void Delete()
         {
             Log.DebugFormat("Deleting Macro {0}", _macroDto.Alias);
 
-            this.UmbracoDatabase.Delete<MacroPropertyDto>("WHERE macro = @macroId", new { macroId = _macroDto.Id });
-            this.UmbracoDatabase.Delete(_macroDto);
-
-            FireAfterDelete();
+            UmbracoDatabase.Delete<MacroPropertyDto>("WHERE macro = @macroId", new { macroId = _macroDto.Id });
+            UmbracoDatabase.Delete(_macroDto);
         }
 
         public Macro DeleteProperty(string alias)
@@ -71,10 +68,7 @@ namespace uFluent
                     alias, _macroDto.Alias));
             }
 
-            this.UmbracoDatabase.Delete<MacroPropertyDto>("WHERE macroPropertyAlias = @alias", new { alias = alias });
-
-
-            FireAfterDelete();
+            UmbracoDatabase.Delete<MacroPropertyDto>("WHERE macroPropertyAlias = @alias", new { alias = alias });
 
             return this;
         }
@@ -87,9 +81,7 @@ namespace uFluent
 
             property.SortOrder = (byte)sortOrder;
 
-            this.UmbracoDatabase.Update(property);
-
-            FireAfterDelete();
+            UmbracoDatabase.Update(property);
 
             return this;
         }
@@ -101,10 +93,7 @@ namespace uFluent
             var property = GetProperty(alias);
             property.Name = newName;
 
-            this.UmbracoDatabase.Update(property);
-
-            FireAfterDelete();
-
+            UmbracoDatabase.Update(property);
             return this;
         }
 
@@ -124,9 +113,7 @@ namespace uFluent
                 Type = (short) propertyType.Id
             };
 
-            this.UmbracoDatabase.Save(propertyDto);
-
-            FireAfterSave();
+            UmbracoDatabase.Save(propertyDto);
 
             return this;
         }
@@ -185,16 +172,6 @@ namespace uFluent
 
             _macroDto.Xslt = xsltPath;
             return this;
-        }
-
-        private void FireAfterSave()
-        {
-            // todo: version 2?
-        }
-
-        private void FireAfterDelete()
-        {
-            // todo: version 2?
         }
 
         private static FluentMacroService FluentMacroService
