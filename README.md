@@ -1,11 +1,12 @@
 ###Nuget Packages
 ####uFluent
 Url : **http://www.nuget.org/packages/uFluent/**
-Cmd : PM> Install-Package uFluent
+
+Cmd : ```PM> Install-Package uFluent```
 ####uFluent.Migrate
 Url : **http://www.nuget.org/packages/uFluent.Migrate/**
-Cmd : PM> Install-Package uFluent.Migrate
 
+Cmd : ```PM> Install-Package uFluent.Migrate```
 ##README
 
 ###TL;DR
@@ -100,7 +101,7 @@ Last but not least you must make a call to uFluentMigrate.Run() on the applicati
 ```C#
 public class ApplicationStartupHandler : ApplicationEventHandler
 {
-    protected override void ApplicationStarted()
+    protected override void ApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
     {
         uFluentMigrate.Run();
     }
