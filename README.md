@@ -1,9 +1,15 @@
 ###Nuget Packages
 ####uFluent
+
+[![NuGet version](https://badge.fury.io/nu/ufluent.svg)](http://badge.fury.io/nu/ufluent)
+
 Url : **http://www.nuget.org/packages/uFluent/**
 
 Cmd : ```PM> Install-Package uFluent```
 ####uFluent.Migrate
+
+[![NuGet version](https://badge.fury.io/nu/ufluent.migrate.svg)](http://badge.fury.io/nu/ufluent.migrate)
+
 Url : **http://www.nuget.org/packages/uFluent.Migrate/**
 
 Cmd : ```PM> Install-Package uFluent.Migrate```
