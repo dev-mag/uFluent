@@ -4,7 +4,6 @@ using System.Linq;
 using log4net;
 using Umbraco.Core.Models;
 using Umbraco.Core.Services;
-using uFluent.Annotations;
 using uFluent.Persistence;
 
 namespace uFluent
@@ -22,12 +21,33 @@ namespace uFluent
 
         private IDataTypeService DataTypeService { get; set; }
 
-        internal DocumentType(IContentTypeService contentTypeService,
-            IDataTypeService dataTypeService)
+        internal DocumentType(IContentTypeService contentTypeService, IDataTypeService dataTypeService)
         {
-            this.ContentTypeService = contentTypeService;
+            ContentTypeService = contentTypeService;
+            DataTypeService = dataTypeService;
+        }
 
-            this.DataTypeService = dataTypeService;
+        /// <summary>
+        /// Create a new document type. The alias is generated from the name by removing spaces.
+        /// </summary>
+        /// <param name="name">Friendly document type name.</param>
+        /// <returns></returns>
+        public static DocumentType Create(string name)
+        {
+            var alias = name.Replace(" ", "");
+
+            return FluentDocumentTypeService.Create(alias, name);
+        }
+
+        /// <summary>
+        /// Create a new document type.
+        /// </summary>
+        /// <param name="alias">Alias. Cannot contain spaces or exotic punctuation.</param>
+        /// <param name="name">Friendly document type name. Visible to content editors.</param>
+        /// <returns></returns>
+        public static DocumentType Create(string alias, string name)
+        {
+            return FluentDocumentTypeService.Create(alias, name);
         }
 
         /// <summary>
@@ -79,7 +99,7 @@ namespace uFluent
         /// </summary>
         /// <param name="alias">Property alias, follow C# variable naming guidelines.</param>
         /// <param name="name">Name visible to content editors</param>
-        /// <param name="dataTypeName">Data type to be used. <see cref="uMigrate.Consts.DataTypes"/></param>
+        /// <param name="dataTypeName">Data type to be used. <see cref="uFluent.Consts.DataTypes"/></param>
         /// <param name="tabName"></param>
         /// <param name="mandatory"></param>
         /// <param name="description"></param>
@@ -224,14 +244,14 @@ namespace uFluent
         /// <returns></returns>
         public DocumentType Save()
         {
-            this.ContentTypeService.Save(UmbracoContentType);
+            ContentTypeService.Save(UmbracoContentType);
 
             return this;
         }
 
         private IDataTypeDefinition GetDataTypeDefinition(string dataTypeName)
         {
-            return this.DataTypeService.GetAllDataTypeDefinitions().Single(x => x.Name.Equals(dataTypeName, StringComparison.InvariantCultureIgnoreCase));
+            return DataTypeService.GetAllDataTypeDefinitions().Single(x => x.Name.Equals(dataTypeName, StringComparison.InvariantCultureIgnoreCase));
         }
 
         /// <summary>
@@ -244,7 +264,7 @@ namespace uFluent
         {
             if (UmbracoContentType.PropertyGroups.Contains(tabName))
             {
-                throw new InvalidOperationException("");
+                throw new InvalidOperationException(string.Format("DocumentType `{0}` already contains tab `{1}`", UmbracoContentType.Name, tabName));
             }
 
             var propertyGroup = new PropertyGroup { Name = tabName, SortOrder = sortOrder };
@@ -275,7 +295,7 @@ namespace uFluent
         /// </summary>
         /// <param name="parent"></param>
         /// <returns></returns>
-        public DocumentType SetParent([NotNull]DocumentType parent)
+        public DocumentType SetParent(DocumentType parent)
         {
             if (parent == null)
             {
@@ -305,7 +325,7 @@ namespace uFluent
         /// </summary>
         /// <param name="documentType"></param>
         /// <returns></returns>
-        public DocumentType AddAllowedChildNodeType([NotNull]DocumentType documentType)
+        public DocumentType AddAllowedChildNodeType(DocumentType documentType)
         {
             var contentTypes = UmbracoContentType.AllowedContentTypes.ToList();
             var id = documentType.UmbracoContentType.Id;
@@ -329,7 +349,7 @@ namespace uFluent
         /// </summary>
         /// <param name="documentType"></param>
         /// <returns></returns>
-        public DocumentType RemoveAllowedChildNodeType([NotNull]DocumentType documentType)
+        public DocumentType RemoveAllowedChildNodeType(DocumentType documentType)
         {
             var contentTypes = UmbracoContentType.AllowedContentTypes.ToList();
 
@@ -343,11 +363,21 @@ namespace uFluent
         }
 
         /// <summary>
+        /// Retrieve a document type by its alias.
+        /// </summary>
+        /// <param name="alias"></param>
+        /// <returns></returns>
+        public static DocumentType Get(string alias)
+        {
+            return FluentDocumentTypeService.Get(alias);
+        }
+
+        /// <summary>
         /// Delete this document type and all related content nodes.
         /// </summary>
         public void Delete()
         {
-            this.ContentTypeService.Delete(UmbracoContentType);
+            ContentTypeService.Delete(UmbracoContentType);
         }
 
         private static FluentDocumentTypeService FluentDocumentTypeService
@@ -367,27 +397,6 @@ namespace uFluent
             }
 
             internal static readonly FluentDocumentTypeService Instance = new FluentDocumentTypeService(UmbracoUtils.Instance);
-        }
-
-        /// <summary>
-        /// Retrieve a document type by its alias.
-        /// </summary>
-        /// <param name="alias"></param>
-        /// <returns></returns>
-        public static DocumentType Get([NotNull]string alias)
-        {
-            return FluentDocumentTypeService.Get(alias);
-        }
-
-        /// <summary>
-        /// Create a new document type and save it to the database.
-        /// </summary>
-        /// <param name="alias">Alias. Cannot contain spaces or exotic punctuation.</param>
-        /// <param name="name">Friendly document type name. Visible to content editors.</param>
-        /// <returns></returns>
-        public static DocumentType Create([NotNull]string alias, [NotNull]string name)
-        {
-            return FluentDocumentTypeService.Create(alias, name);
         }
     }
 }

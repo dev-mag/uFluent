@@ -1,6 +1,5 @@
 ﻿using uFluent.Validation;
 using Umbraco.Core;
-using Umbraco.Core.Persistence;
 using Umbraco.Core.Services;
 
 namespace uFluent.Persistence
@@ -43,15 +42,15 @@ namespace uFluent.Persistence
                 throw new FluentException("Current Umbraco application context is not loaded.");
             }
 
-            this.FileService = ApplicationContext.Current.Services.FileService;
+            FileService = ApplicationContext.Current.Services.FileService;
 
-            this.ContentTypeService = ApplicationContext.Current.Services.ContentTypeService;
+            ContentTypeService = ApplicationContext.Current.Services.ContentTypeService;
 
-            this.DataTypeService = ApplicationContext.Current.Services.DataTypeService;
+            DataTypeService = ApplicationContext.Current.Services.DataTypeService;
 
-            this.UmbracoDatabase = new UmbracoDatabaseAdaptor();
+            UmbracoDatabase = new UmbracoDatabaseAdaptor();
 
-            this.AliasValidator = new AliasValidator();
+            AliasValidator = new AliasValidator();
         }
     }
 }
