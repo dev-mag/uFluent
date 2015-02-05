@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uFluent", "uFluent\uFluent.csproj", "{9BD82FB6-FCFA-4CCD-8EC6-D721BF7B41CA}"
 EndProject
@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{719888
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "umbraco621Example", "umbraco621Example\umbraco621Example.csproj", "{D9F58497-DBB3-4D7C-876B-5691CA2C6591}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +30,10 @@ Global
 		{372B0B83-BBAA-402E-9637-B5862D578744}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{372B0B83-BBAA-402E-9637-B5862D578744}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{372B0B83-BBAA-402E-9637-B5862D578744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F58497-DBB3-4D7C-876B-5691CA2C6591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F58497-DBB3-4D7C-876B-5691CA2C6591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F58497-DBB3-4D7C-876B-5691CA2C6591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F58497-DBB3-4D7C-876B-5691CA2C6591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
