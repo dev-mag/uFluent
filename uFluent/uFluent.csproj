@@ -217,6 +217,7 @@
     <Compile Include="Extensions\MultiNodeTreePicker\Enums\StartNodeXPathExpressionType.cs" />
     <Compile Include="Extensions\MultiNodeTreePicker\Enums\TreeType.cs" />
     <Compile Include="Extensions\MultiNodeTreePicker\MultiNodeTreePickerExtensions.cs" />
+    <Compile Include="Extensions\Tags\TagsExtensions.cs" />
     <Compile Include="FluentException.cs" />
     <Compile Include="Macro.cs" />
     <Compile Include="Persistence\FluentDataTypeService.cs" />
