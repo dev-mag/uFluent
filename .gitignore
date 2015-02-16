@@ -162,3 +162,5 @@ $RECYCLE.BIN/
 
 nuget/*.nupkg
 /packages
+umbraco621Example/App_Data/Logs/UmbracoTraceLog.txt
+umbraco621Example/App_Data/Logs/UmbracoTraceLog.txt.2015-02-12

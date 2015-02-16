@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Newtonsoft.Json;
@@ -38,7 +39,6 @@ namespace uFluent
         {
             var property = typeof(DataTypeDefinition).GetProperty("ControlId");
             property.SetValue(DataTypeDefinition, new Guid(propertyEditor), BindingFlags.NonPublic | BindingFlags.Instance, null, null, null);
-
             return this;
         }
 
@@ -70,6 +70,11 @@ namespace uFluent
             this.UmbracoDatabase.Insert(dtpv);
 
             return this;
+        }
+
+        public IEnumerable<string> GetDataTypePreValues()
+        {
+            return this.DataTypeService.GetPreValuesByDataTypeId(DataTypeDefinition.Id);
         }
 
         public DataType DeleteAllPreValues()

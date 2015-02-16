@@ -273,11 +273,16 @@
   <ItemGroup>
     <Compile Include="App_Start\ApplicationStartupHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uFluent.Migrate\CustomDataTypeConsts.cs" />
     <Compile Include="uFluent.Migrate\MigrationList.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\ChangeUsefulLinksXPathFilterToContainContentPage.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\ChangeUsefulLinksXPathFilterToContainNestedPage.cs" />
     <Compile Include="uFluent.Migrate\Migrations\ContentDocTypeWithPRTagProperty.cs" />
     <Compile Include="uFluent.Migrate\Migrations\HomepageAddPressReleaseTagsTest.cs" />
     <Compile Include="uFluent.Migrate\Migrations\HomepageDocType.cs" />
     <Compile Include="uFluent.Migrate\Migrations\PressReleaseTagsDataType.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\RemoveNestedPageFromUsefulLinksPicker.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\UsefulLinksDataType.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\uFluent.Migrate\uFluent.Migrate.csproj">

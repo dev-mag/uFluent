@@ -16,6 +16,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{719888
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "umbraco621Example", "umbraco621Example\umbraco621Example.csproj", "{D9F58497-DBB3-4D7C-876B-5691CA2C6591}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5370D240-8D63-4CA6-AC88-3FE6AD74E01B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{A56F5DC6-F10C-4B10-9942-4174841DA35C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uFluent.Tests.Unit", "uFluent.Tests.Unit\uFluent.Tests.Unit.csproj", "{E75F0CEC-61A5-4B9A-AC62-ADAB60C7331B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,8 +40,16 @@ Global
 		{D9F58497-DBB3-4D7C-876B-5691CA2C6591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9F58497-DBB3-4D7C-876B-5691CA2C6591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9F58497-DBB3-4D7C-876B-5691CA2C6591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E75F0CEC-61A5-4B9A-AC62-ADAB60C7331B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75F0CEC-61A5-4B9A-AC62-ADAB60C7331B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75F0CEC-61A5-4B9A-AC62-ADAB60C7331B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75F0CEC-61A5-4B9A-AC62-ADAB60C7331B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A56F5DC6-F10C-4B10-9942-4174841DA35C} = {5370D240-8D63-4CA6-AC88-3FE6AD74E01B}
+		{E75F0CEC-61A5-4B9A-AC62-ADAB60C7331B} = {A56F5DC6-F10C-4B10-9942-4174841DA35C}
 	EndGlobalSection
 EndGlobal

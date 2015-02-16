@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using uFluent.Migrate;
+using umbraco621Example.uFluent.Migrate.Migrations;
 
 namespace umbraco621Example.uFluent.Migrate
 {
@@ -11,10 +12,14 @@ namespace umbraco621Example.uFluent.Migrate
             {
                 return new List<IUmbracoMigration>
                 {
-                    new Migrations.HomepageDocType(),
-                    new Migrations.PressReleaseTagsDataType(),
-                    new Migrations.HomepageAddPressReleaseTagsTest(),
-                    new Migrations.ContentDocTypeWithPRTagProperty()
+                    new HomepageDocType(),
+                    new PressReleaseTagsDataType(),
+                    new HomepageAddPressReleaseTagsTest(),
+                    new ContentDocTypeWithPRTagProperty(),
+                    new UsefulLinksDataType(),
+                    new ChangeUsefulLinksXPathFilterToContainContentPage(),
+                    new ChangeUsefulLinksXPathFilterToContainNestedPage(),
+                    new RemoveNestedPageFromUsefulLinksPicker()
                 };
             }
         }

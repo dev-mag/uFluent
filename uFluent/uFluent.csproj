@@ -213,10 +213,12 @@
     <Compile Include="Dto\MacroPropertyDto.cs" />
     <Compile Include="Dto\MacroPropertyTypeDto.cs" />
     <Compile Include="Dto\XPathDropDownListPreValueDto.cs" />
+    <Compile Include="Extensions\Enumeration\EnumExtensions.cs" />
     <Compile Include="Extensions\MultiNodeTreePicker\Enums\StartNodeSelectionType.cs" />
     <Compile Include="Extensions\MultiNodeTreePicker\Enums\StartNodeXPathExpressionType.cs" />
     <Compile Include="Extensions\MultiNodeTreePicker\Enums\TreeType.cs" />
     <Compile Include="Extensions\MultiNodeTreePicker\MultiNodeTreePickerExtensions.cs" />
+    <Compile Include="Extensions\MultiNodeTreePicker\Models\MultiNodeTreePickerPreValues.cs" />
     <Compile Include="Extensions\Tags\TagsExtensions.cs" />
     <Compile Include="FluentException.cs" />
     <Compile Include="Macro.cs" />
@@ -231,6 +233,7 @@
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Template.cs" />
+    <Compile Include="Utils\XPathFilters\DocTypeListXPath.cs" />
     <Compile Include="Validation\AliasValidator.cs" />
     <Compile Include="Validation\IAliasValidator.cs" />
   </ItemGroup>
@@ -238,6 +241,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
