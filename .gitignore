@@ -162,3 +162,5 @@ $RECYCLE.BIN/
 
 nuget/*.nupkg
 /packages
+/uFluentExample/App_Data/Logs
+/uFluentExample/App_Data/TEMP
