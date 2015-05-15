@@ -240,11 +240,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\cache\6\d\0\5\9\8\6d0598e6e81ae49f08195c08304eeffa26b0bfa9.jpg" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt" />
-    <Content Include="App_Data\TEMP\ClientDependency\MA-VPC-024-9bf0228b25582157378fd6d892f5bc88-map.xml" />
-    <Content Include="App_Data\TEMP\ClientDependency\MA-VPC-025-4c7156635c805792b13b73bdb8d66312-map.xml" />
-    <Content Include="App_Data\TEMP\ClientDependency\MA-VPC-025-ad1fe3d2a416702dd7cd8acce6cbc2f8-map.xml" />
     <Content Include="config\grid.editors.config.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -260,61 +255,6 @@
     <Content Include="media\dummy.txt" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
-    <Content Include="App_Data\access.config" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt.2015-03-09" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt.2015-03-10" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt.2015-03-11" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt.2015-03-16" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt.2015-03-17" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt.2015-04-09" />
-    <Content Include="App_Data\Logs\UmbracoTraceLog.txt.2015-04-10" />
-    <Content Include="App_Data\packages\installed\installedPackages.config" />
-    <Content Include="App_Data\preview\0_85f5cfc5-5f50-40f0-bde8-3e009e2a1036.config" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\segments.gen" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\segments_u" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.fdt" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.fdx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.fnm" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.frq" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.nrm" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.prx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.tii" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.tis" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.tvd" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.tvf" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_k.tvx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_l.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_m.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_n.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_o.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_p.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\External\Index\_q.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\InternalMember\Index\segments.gen" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\InternalMember\Index\segments_1" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\segments.gen" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\segments_1c" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_14.fdt" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_14.fdx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_14.fnm" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_14.frq" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_14.nrm" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_14.prx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_14.tii" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_14.tis" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_14.tvd" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_14.tvf" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_14.tvx" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_15.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_16.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_17.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_18.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_19.cfs" />
-    <Content Include="App_Data\TEMP\ExamineIndexes\Internal\Index\_1a.cfs" />
-    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.MA-VPC-024.hash" />
-    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.MA-VPC-024.list" />
-    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.MA-VPC-025.hash" />
-    <Content Include="App_Data\TEMP\PluginCache\umbraco-plugins.MA-VPC-025.list" />
-    <Content Include="App_Data\umbraco.config" />
     <None Include="Properties\PublishProfiles\KB_Publish.pubxml" />
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
@@ -389,8 +329,7 @@
     <Compile Include="uFluent.Migrate\Migrations\SubCategoryCreateDataType.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\TEMP\FileUploads\" />
-    <Folder Include="App_Data\TEMP\Install\" />
+    <Folder Include="App_Data\" />
     <Folder Include="css\" />
   </ItemGroup>
   <ItemGroup>
