@@ -16,6 +16,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{719888
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uFluentExample", "uFluentExample\uFluentExample.csproj", "{1A4E67A7-0695-4922-8505-FC3CC8B32E29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D7636019-976D-4D1D-8482-B1724CA41864}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{C957D022-517F-4E47-AC09-655352BCD3C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uFluent.Tests.Unit", "Tests\Unit\uFluent.Tests.Unit\uFluent.Tests.Unit.csproj", "{33A2323E-82A4-4392-AC39-C430A229E1E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,8 +40,16 @@ Global
 		{1A4E67A7-0695-4922-8505-FC3CC8B32E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A4E67A7-0695-4922-8505-FC3CC8B32E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A4E67A7-0695-4922-8505-FC3CC8B32E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A2323E-82A4-4392-AC39-C430A229E1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A2323E-82A4-4392-AC39-C430A229E1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A2323E-82A4-4392-AC39-C430A229E1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A2323E-82A4-4392-AC39-C430A229E1E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C957D022-517F-4E47-AC09-655352BCD3C7} = {D7636019-976D-4D1D-8482-B1724CA41864}
+		{33A2323E-82A4-4392-AC39-C430A229E1E8} = {C957D022-517F-4E47-AC09-655352BCD3C7}
 	EndGlobalSection
 EndGlobal

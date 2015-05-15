@@ -1,5 +1,7 @@
 ﻿using uFluent;
+using uFluent.Consts;
 using uFluent.Migrate;
+using Umbraco.Core;
 
 namespace uFluentExample.uFluent.Migrate.Migrations
 {
@@ -9,18 +11,18 @@ namespace uFluentExample.uFluent.Migrate.Migrations
         {
             var homepageDocType = DocumentType.Get("Homepage");
 
-            var categoryDocType = DocumentType.Get("category");
+            var categoryDocType = DocumentType.Get("Category");
 
-            var articleTemplate = Template.Create("article", "Article");
+            var articleTemplate = Template.Create("Article", "Article");
             articleTemplate.Save();
 
-            var articleDocType = DocumentType.Create("article", "Article")
+            var articleDocType = DocumentType.Create("Article", "Article")
                 .SetParent(homepageDocType)
                 .SetDefaultTemplate(articleTemplate)
                 .Save();
 
             categoryDocType.AddAllowedChildNodeType(articleDocType)
-            .Save();
+                           .Save();
         }
     }
 }

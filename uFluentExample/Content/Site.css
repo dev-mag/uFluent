@@ -1,0 +1,48 @@
+﻿.kb-home-hero {
+    background-image: url('Images/HomeHero.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightblue;
+    height: 640px;
+}
+
+.kb-category-hero {
+    background-image: url('Images/Antonov.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightblue;
+    height: 640px;
+}
+
+.kb-home-hero h1, .kb-category-hero h1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.kb-articles {
+    list-style-type: none;
+}
+
+.kb-articles .kb-category-article-title {
+    font-size: 24px;
+}
+
+.kb-articles .kb-category-article-summary {
+    font-size: 16px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        padding: 30px 15px;
+    }
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+}

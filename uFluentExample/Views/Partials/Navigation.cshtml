@@ -1,0 +1,49 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    var publishedContent = UmbracoContext.ContentCache.GetAtRoot().ToList();
+    
+}
+    
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#kb-navbar-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="@publishedContent.First().Url">Knowledge Base</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="kb-navbar-collapse">
+            <ul class="nav navbar-nav">
+                @foreach(var content in publishedContent.First().Children)
+                {
+                    <li>
+                        @if(content.Children.Any())
+                        {
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false" >@content.GetProperty("title").DataValue.ToString()<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                @foreach(var child in content.Children)
+                                {
+                                    <li>
+                                        <a href="@child.Url">@child.GetProperty("title").DataValue.ToString()</a>
+                                    </li>
+                                }
+                            </ul>
+                        
+                        }
+                        else
+                        {
+                            <a href="@content.Url">@content.GetProperty("title").DataValue.ToString()</a>
+                        }
+                        </li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>

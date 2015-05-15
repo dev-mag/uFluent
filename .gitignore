@@ -162,3 +162,9 @@ $RECYCLE.BIN/
 
 nuget/*.nupkg
 /packages
+/uFluentExample/App_Data/
+/uFluentExample/Content/Images/
+/uFluentExample/media/
+/uFluentExample/Properties/PublishProfiles/
+
+/umbraco621Example/App_Data/

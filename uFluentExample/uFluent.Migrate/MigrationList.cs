@@ -4,7 +4,7 @@ using uFluentExample.uFluent.Migrate.Migrations;
 
 namespace uFluentExample.uFluent.Migrate
 {
-    internal class MigrationList : IMigrationList
+    public class MigrationList : IMigrationList
     {
         public IEnumerable<IUmbracoMigration> Migrations
         {
@@ -15,7 +15,9 @@ namespace uFluentExample.uFluent.Migrate
                     new HomePage(),
                     new HomePageAdditions(),
                     new Category(),
-                    new Article()
+                    new Article(),
+                    new CategoryAddIcon(),
+                    new SubCategoryCreateDataType()
                 };
             }
         }

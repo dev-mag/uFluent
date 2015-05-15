@@ -4,15 +4,17 @@
     Layout = "Shared/_Layout.cshtml";
 }
 
-
-<div class="jumbotron kb-home-hero">
-    <div class="row">
-        <div class="col-xs-12">
-            <h1>@Umbraco.Field("Title")</h1>
+<div class="row kb-home-hero">
+    <div class="col-xs-12">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>@Umbraco.Field("Title")</h1>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-    
 
 <div class="container">
     <div class="row">
@@ -45,13 +47,13 @@
                                 <img class="img-responsive img-rounded" src="@Umbraco.Media(item.IconImageUrl).Url" alt="@item.IconImageAltText" style="width: 100%" />
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-12">
 
-                            </div>
                         </div>
-                    </a>
-                </div>
+                    </div>
+                        </a>
+</div>
             }
         </div>
     </div>
