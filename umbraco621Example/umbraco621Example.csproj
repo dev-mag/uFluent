@@ -280,6 +280,7 @@
     <Compile Include="uFluent.Migrate\Migrations\ContentDocTypeWithPRTagProperty.cs" />
     <Compile Include="uFluent.Migrate\Migrations\HomepageAddPressReleaseTagsTest.cs" />
     <Compile Include="uFluent.Migrate\Migrations\HomepageDocType.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\HomepageSetTitleValidationProperty.cs" />
     <Compile Include="uFluent.Migrate\Migrations\PressReleaseTagsDataType.cs" />
     <Compile Include="uFluent.Migrate\Migrations\RemoveNestedPageFromUsefulLinksPicker.cs" />
     <Compile Include="uFluent.Migrate\Migrations\UsefulLinksDataType.cs" />

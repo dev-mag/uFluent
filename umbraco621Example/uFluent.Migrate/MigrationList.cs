@@ -19,7 +19,8 @@ namespace umbraco621Example.uFluent.Migrate
                     new UsefulLinksDataType(),
                     new ChangeUsefulLinksXPathFilterToContainContentPage(),
                     new ChangeUsefulLinksXPathFilterToContainNestedPage(),
-                    new RemoveNestedPageFromUsefulLinksPicker()
+                    new RemoveNestedPageFromUsefulLinksPicker(),
+                    new HomepageSetTitleValidationProperty()
                 };
             }
         }

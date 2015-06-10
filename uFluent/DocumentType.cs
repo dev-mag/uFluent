@@ -150,6 +150,22 @@ namespace uFluent
         }
 
         /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="propertyAlias"></param>
+        /// <param name="validationExpresion"></param>
+        /// <returns></returns>
+        public DocumentType SetPropertyValidation(string propertyAlias, string validationExpresion)
+        {
+            var property = UmbracoContentType.PropertyTypes.Single(
+                x => x.Alias.Equals(propertyAlias, StringComparison.InvariantCultureIgnoreCase));
+
+            property.ValidationRegExp = validationExpresion;
+
+            return this;
+        }
+
+        /// <summary>
         /// Move a property onto a different tab.
         /// </summary>
         /// <param name="alias">Property alias</param>
