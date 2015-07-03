@@ -17,7 +17,9 @@ namespace uFluentExample.uFluent.Migrate
                     new Category(),
                     new Article(),
                     new CategoryAddIcon(),
-                    new SubCategoryCreateDataType()
+                    new SubCategoryCreateDataType(),
+                    new HomepageAddTitleValidationRegExTest(),
+                    new HomepageRemoveTitleValidationRegEx()
                 };
             }
         }

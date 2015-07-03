@@ -326,6 +326,8 @@
     <Compile Include="uFluent.Migrate\Migrations\CategoryAddIcon.cs" />
     <Compile Include="uFluent.Migrate\Migrations\HomePage.cs" />
     <Compile Include="uFluent.Migrate\Migrations\HomePageAdditions.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\HomepageAddTitleValidationRegExTest.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\HomepageRemoveTitleValidationRegEx.cs" />
     <Compile Include="uFluent.Migrate\Migrations\SubCategoryCreateDataType.cs" />
   </ItemGroup>
   <ItemGroup>

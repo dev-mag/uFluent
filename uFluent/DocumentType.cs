@@ -170,6 +170,23 @@ namespace uFluent
         }
 
         /// <summary>
+        /// Set the validation regular expression on a specified property.
+        /// </summary>
+        /// <param name="propertyAlias">Property alias</param>
+        /// <param name="validationRegEx">Validation RegEx</param>
+        /// <returns></returns>
+        public DocumentType SetPropertyValidaton(string propertyAlias, string validationRegEx)
+        {
+            var property =
+                UmbracoContentType.PropertyTypes.Single(
+                    x => x.Alias.Equals(propertyAlias, StringComparison.InvariantCultureIgnoreCase));
+
+            property.ValidationRegExp = validationRegEx;
+
+            return this;
+        }
+
+        /// <summary>
         /// Move a property onto a different tab.
         /// </summary>
         /// <param name="alias">Property alias</param>
