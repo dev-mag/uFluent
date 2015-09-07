@@ -11,6 +11,4 @@ namespace uFluentExample
             uFluentMigrate.Run();
         }
     }
-
-
 }

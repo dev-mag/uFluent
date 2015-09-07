@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Newtonsoft.Json;
@@ -9,7 +10,7 @@ using uFluent.Persistence;
 
 namespace uFluent
 {
-    public class DataType
+    public class DataType : IDataType
     {
         private IDataTypeDefinition DataTypeDefinition { get; set; }
 
@@ -26,13 +27,13 @@ namespace uFluent
             DataTypeService = dataTypeService;
         }
 
-        public DataType SetName(string name)
+        public IDataType SetName(string name)
         {
             DataTypeDefinition.Name = name;
             return this;
         }
 
-        public DataType SetControlId(string propertyEditor)
+        public IDataType SetControlId(string propertyEditor)
         {
             var property = typeof(DataTypeDefinition).GetProperty("ControlId");
             property.SetValue(DataTypeDefinition, new Guid(propertyEditor), BindingFlags.NonPublic | BindingFlags.Instance, null, null, null);
@@ -40,7 +41,7 @@ namespace uFluent
             return this;
         }
 
-        public DataType AddPreValue(string value, int sortOrder = 0, string alias = "")
+        public IDataType AddPreValue(string value, int sortOrder = 0, string alias = "")
         {
             var dtpv = new DataTypePreValueDto
             {
@@ -54,8 +55,8 @@ namespace uFluent
 
             return this;
         }
-        
-        public DataType AddPreValueJson(object value, int sortOrder = 0, string alias = "")
+
+        public IDataType AddPreValueJson(object value, int sortOrder = 0, string alias = "")
         {
             var dtpv = new DataTypePreValueDto
             {
@@ -70,13 +71,18 @@ namespace uFluent
             return this;
         }
 
-        public DataType DeleteAllPreValues()
+        public IEnumerable<string> GetDataTypePreValues()
+        {
+            return this.DataTypeService.GetPreValuesByDataTypeId(DataTypeDefinition.Id);
+        }
+
+        public IDataType DeleteAllPreValues()
         {
             UmbracoDatabase.Delete<DataTypePreValueDto>("WHERE datatypeNodeId = @NodeId", new { NodeId = DataTypeDefinition.Id });
             return this;
         }
 
-        public DataType Save()
+        public IDataType Save()
         {
             DataTypeService.Save(DataTypeDefinition);
             return this;
@@ -115,14 +121,15 @@ namespace uFluent
             internal static readonly FluentDataTypeService Instance = new FluentDataTypeService(UmbracoUtils.Instance);
         }
 
-        public static DataType Create(string name, string propertyEditor, DataTypeDatabaseType databaseType = DataTypeDatabaseType.Ntext)
+        public static IDataType Create(string name, string propertyEditor, DataTypeDatabaseType databaseType = DataTypeDatabaseType.Ntext)
         {
             return FluentDataTypeService.Create(name, propertyEditor, databaseType);
         }
 
-        public static DataType Get(string name)
+        public static IDataType Get(string name)
         {
             return FluentDataTypeService.Get(name);
         }
+
     }
 }

@@ -1,17 +1,13 @@
-@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 
 @{
     Layout = "Shared/_Layout.cshtml";
 }
 
-<div class="row kb-category-hero">
-    <div class="col-xs-12">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1>@Umbraco.Field("Title")</h1>
-                </div>
-            </div>
+<div class="jumbotron kb-category-hero">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1>@Umbraco.Field("Title")</h1>
         </div>
     </div>
 </div>

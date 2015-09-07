@@ -168,3 +168,4 @@ nuget/*.nupkg
 /uFluentExample/Properties/PublishProfiles/
 
 /umbraco621Example/App_Data/
+uFluentExample/App_Data/TEMP/ExamineIndexes/InternalMember/Index/segments_1

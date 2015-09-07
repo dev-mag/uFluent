@@ -4,7 +4,7 @@ namespace uFluent.Extensions.Tags
 {
     public static class TagsExtentions
     {
-        public static DataType SetTagDataTypePreValues(this DataType dataType, string tagGroup, StorageType storageType)
+        public static IDataType SetTagDataTypePreValues(this IDataType dataType, string tagGroup, StorageType storageType)
         {
             dataType.AddPreValue(tagGroup, 1, "group")
                 .AddPreValue(storageType.ToString(), 1, "storageType")

@@ -1,6 +1,6 @@
-﻿using FluentAssertions;
+﻿using System;
+using FluentAssertions;
 using NUnit.Framework;
-using System;
 using uFluent.Extensions.Enumeration;
 using uFluent.Extensions.MultiNodeTreePicker.Enums;
 using uFluent.Extensions.Tags.Enums;
@@ -11,9 +11,9 @@ namespace uFluent.Tests.Unit.Extensions.Enum
     public class EnumExtensionsTests
     {
         [Test]
-        public void GivenIHaveEnumTreeType_WhenGetDescriptionForVaueContent_ThenReturnedStringIsContent()
+        public void GivenIHaveEnumNodeType_WhenGetDescriptionForVaueContent_ThenReturnedStringIsContent()
         {
-            var result = TreeType.Content.GetDescription();
+            var result = NodeType.Content.GetDescription();
             result.Should().Be("content");
         }
 
@@ -27,24 +27,15 @@ namespace uFluent.Tests.Unit.Extensions.Enum
         [Test]
         public void GivenIHaveValueMediaInTreeTypeEnum_WhenIGetValueFromDescription_ThenReturnedIsTreeTypeMedia()
         {
-            var result = EnumExtensions.GetValueFromDescription<TreeType>("media");
-            result.Should().Be(TreeType.Media);
+            var result = EnumExtensions.GetValueFromDescription<NodeType>("media");
+            result.Should().Be(NodeType.Media);
         }
 
         [Test]
-        [ExpectedException("System.ArgumentException")]
         public void GivenTreeTypeEnum_WhenIGetValueFromDescriptionRandom_ThenArgumentExceptionIsThrownWithParameterNameDescription()
         {
-            try
-            {
-                var result = EnumExtensions.GetValueFromDescription<TreeType>("random");
-                Assert.Fail("The argument exception should have been thrown as there is no tree type of random");
-            }
-            catch (ArgumentException ex)
-            {
-                ex.ParamName.Should().Be("description");
-                throw;
-            }
+            Action act = () => EnumExtensions.GetValueFromDescription<NodeType>("random");
+            act.ShouldThrow<ArgumentException>("description").And.ParamName.Should().Be("description");
         }
     }
 }

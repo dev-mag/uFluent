@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel;
-using Attribute = System.Attribute;
 
 namespace uFluent.Extensions.Enumeration
 {
@@ -31,9 +30,9 @@ namespace uFluent.Extensions.Enumeration
         public static object GetValueFromDescription<T>(string description)
         {
             var type = typeof (T);
-            
+
             if (!type.IsEnum) throw new InvalidOperationException();
-           
+
             foreach (var field in type.GetFields())
             {
                 var attribute = Attribute.GetCustomAttribute(field, typeof (DescriptionAttribute)) as DescriptionAttribute;
