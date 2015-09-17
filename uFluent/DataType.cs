@@ -33,6 +33,12 @@ namespace uFluent
             return this;
         }
 
+        public IDataType SetPropertyEditor(string propertyEditorAlias)
+        {
+            DataTypeDefinition.PropertyEditorAlias = propertyEditorAlias;
+            return this;
+        }
+
         public IDataType SetControlId(string propertyEditor)
         {
             var property = typeof(DataTypeDefinition).GetProperty("ControlId");
