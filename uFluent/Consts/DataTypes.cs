@@ -12,6 +12,9 @@
         public const string FolderBrowser = "Folder Browser";
         public const string ImageCropper = "Image Cropper";
         public const string Label = "Label";
+        public const string ListViewContent = "List View - Content";
+        public const string ListViewMedia = "List View - Media";
+        public const string ListViewMembers = "List View - Members";
         public const string MacroContainer = "Macro Container";
         public const string MediaPicker = "Media Picker";
         public const string MemberPicker = "Member Picker";

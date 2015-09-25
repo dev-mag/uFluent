@@ -1,5 +1,4 @@
-﻿using System;
-using Umbraco.Core.Models;
+﻿using Umbraco.Core.Models;
 using System.Linq;
 
 namespace uFluent.Persistence
@@ -22,7 +21,7 @@ namespace uFluent.Persistence
                 throw new FluentException(string.Format("Cannot create Data Type Definition `{0}` as it already exists.", name));
             }
 
-            var newDataTypeDefinition = new DataTypeDefinition(-1, new Guid(propertyEditor)) { Name = name, DatabaseType = databaseType };
+            var newDataTypeDefinition = new DataTypeDefinition(-1, propertyEditor) { Name = name, DatabaseType = databaseType };
 
             UmbracoUtils.DataTypeService.Save(newDataTypeDefinition);
 
