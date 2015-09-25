@@ -21,7 +21,9 @@ namespace uFluentExample.uFluent.Migrate
                     new UsefulLinksPickerAddHomepageCategoryArticleDocTypes(),
                     new DocumentTypeSetIcons(),
                     new UsefulLinksPickerRemoveCategoryArticleFromAllowedItems(),
-                    new HomepagePickerCreateDataType()
+                    new HomepagePickerCreateDataType(),
+                    new UsefulLinksPickerChangeDbTypeToNvarchar(),
+                    new UsefulLinksPickerChangeDbTypeToNtext()
                 };
             }
         }

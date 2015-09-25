@@ -41,6 +41,12 @@ namespace uFluent
             return this;
         }
 
+        public IDataType SetDataTypeDatabaseType(DataTypeDatabaseType dataTypeDatabaseType)
+        {
+            DataTypeDefinition.DatabaseType = dataTypeDatabaseType;
+            return this;
+        }
+
         public IDataType AddPreValue(string value, int sortOrder = 0, string alias = "")
         {
             var dtpv = new DataTypePreValueDto

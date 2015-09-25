@@ -2748,6 +2748,8 @@
     <Compile Include="ufluent.Migrate\Migrations\Homepage\HomepageCreateTemplateAndDocType.cs" />
     <Compile Include="ufluent.Migrate\Migrations\SubCategoryCreateDataType.cs" />
     <Compile Include="ufluent.Migrate\Migrations\UsefulLinksPicker\UsefulLinksPickerAddHomepageAndCategoryDocTypes.cs" />
+    <Compile Include="ufluent.Migrate\Migrations\UsefulLinksPicker\UsefulLinksPickerChangeDbTypeToNtext.cs" />
+    <Compile Include="ufluent.Migrate\Migrations\UsefulLinksPicker\UsefulLinksPickerChangeDbTypeToNvarchar.cs" />
     <Compile Include="ufluent.Migrate\Migrations\UsefulLinksPicker\UsefulLinksPickerCreateDataType.cs" />
     <Compile Include="ufluent.Migrate\Migrations\UsefulLinksPicker\UsefulLinksPickerRemoveCategoryArticleFromAllowedItems.cs" />
   </ItemGroup>
