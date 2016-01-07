@@ -231,7 +231,7 @@
     <Compile Include="Extensions\MultiNodeTreePicker\Models\StartNode.cs" />
     <Compile Include="Extensions\MultiNodeTreePicker\MultiNodeTreePickerExtensions.cs" />
     <Compile Include="Extensions\Tags\Enums\StorageType.cs" />
-    <Compile Include="Extensions\Tags\TagsExtentions.cs" />
+    <Compile Include="Extensions\Tags\TagsExtensions.cs" />
     <Compile Include="FluentException.cs" />
     <Compile Include="IDataType.cs" />
     <Compile Include="Macro.cs" />

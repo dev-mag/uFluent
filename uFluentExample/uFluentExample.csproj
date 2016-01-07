@@ -2741,6 +2741,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ufluent.Migrate\CustomDataTypeConsts.cs" />
     <Compile Include="ufluent.Migrate\MigrationList.cs" />
+    <Compile Include="ufluent.Migrate\Migrations\ArticleTagsGroupCreateDataType.cs" />
     <Compile Include="ufluent.Migrate\Migrations\Article\ArticleCreateTemplateAndDocType.cs" />
     <Compile Include="ufluent.Migrate\Migrations\Category\CategoryCreateTemplateAndDocType.cs" />
     <Compile Include="ufluent.Migrate\Migrations\DocumentTypeSetIcons.cs" />

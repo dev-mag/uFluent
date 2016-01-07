@@ -23,7 +23,8 @@ namespace uFluentExample.uFluent.Migrate
                     new UsefulLinksPickerRemoveCategoryArticleFromAllowedItems(),
                     new HomepagePickerCreateDataType(),
                     new UsefulLinksPickerChangeDbTypeToNvarchar(),
-                    new UsefulLinksPickerChangeDbTypeToNtext()
+                    new UsefulLinksPickerChangeDbTypeToNtext(),
+                    new ArticleTagsGroupCreateDataType()
                 };
             }
         }
