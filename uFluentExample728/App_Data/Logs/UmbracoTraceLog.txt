@@ -1,0 +1,1473 @@
+﻿2016-01-22 14:06:41,671 [19] INFO  Umbraco.Core.CoreBootManager - [P12092/T1/D3] Umbraco 7.2.8 application starting on MA-VPC-024
+2016-01-22 14:06:41,702 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Determining hash of code files on disk
+2016-01-22 14:06:41,710 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Hash determined (took 7ms)
+2016-01-22 14:06:41,718 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-22 14:06:41,987 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 268ms)
+2016-01-22 14:06:42,047 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-22 14:06:42,051 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-01-22 14:06:42,051 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-22 14:06:42,054 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 2ms)
+2016-01-22 14:06:42,069 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-22 14:06:42,072 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 2ms)
+2016-01-22 14:06:42,072 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-22 14:06:42,075 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 3ms)
+2016-01-22 14:06:42,104 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-22 14:06:42,107 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2016-01-22 14:06:42,108 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-22 14:06:42,110 [19] INFO  Umbraco.Core.PluginManager - [P12092/T1/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2016-01-22 14:06:42,703 [19] INFO  Umbraco.Core.CoreBootManager - [P12092/T1/D3] Umbraco application startup complete (took 1024ms)
+2016-01-22 14:06:42,973 [19] INFO  Umbraco.Core.ApplicationContext - [P12092/T1/D3] ApplicationUrl: http://ufluentexample728:80/umbraco (UmbracoModule request)
+2016-01-22 14:09:35,350 [19] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P12092/T1/D3] Executing installation step: Permissions
+2016-01-22 14:09:35,400 [19] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P12092/T1/D3] Step completed (took 50ms)
+2016-01-22 14:09:35,417 [19] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P12092/T1/D3] Executing installation step: DatabaseConfigure
+2016-01-22 14:09:35,422 [19] INFO  Umbraco.Core.DatabaseContext - [P12092/T1/D3] Configured a new ConnectionString using the 'System.Data.SqlClient' provider.
+2016-01-22 14:09:35,461 [19] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P12092/T1/D3] Step completed (took 44ms)
+2016-01-22 14:09:35,724 [18] INFO  Umbraco.Core.CoreBootManager - [P12092/T1/D4] Umbraco 7.2.8 application starting on MA-VPC-024
+2016-01-22 14:09:35,751 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Determining hash of code files on disk
+2016-01-22 14:09:35,758 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Hash determined (took 5ms)
+2016-01-22 14:09:35,763 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-22 14:09:35,782 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 17ms)
+2016-01-22 14:09:35,847 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-22 14:09:35,848 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-22 14:09:35,848 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-22 14:09:35,849 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2016-01-22 14:09:35,860 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-22 14:09:35,861 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-01-22 14:09:35,861 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-22 14:09:35,864 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 2ms)
+2016-01-22 14:09:35,894 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-22 14:09:35,895 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-22 14:09:35,895 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-22 14:09:35,895 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-22 14:09:35,983 [19] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P12092/T1/D3] Provider=InternalMemberIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalMemberIndexSet
+2016-01-22 14:09:36,483 [19] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P12092/T1/D3] Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalIndexSet
+2016-01-22 14:09:36,488 [18] INFO  Umbraco.Core.CoreBootManager - [P12092/T1/D4] Umbraco application startup complete (took 757ms)
+2016-01-22 14:09:36,809 [18] INFO  Umbraco.Core.ApplicationContext - [P12092/T1/D4] ApplicationUrl: http://ufluentexample728:80/umbraco (UmbracoModule request)
+2016-01-22 14:09:36,983 [19] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P12092/T1/D3] Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: ExternalIndexSet
+2016-01-22 14:09:37,195 [18] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P12092/T1/D4] Executing installation step: DatabaseInstall
+2016-01-22 14:09:37,197 [18] INFO  Umbraco.Core.DatabaseContext - [P12092/T1/D4] Database configuration status: Started
+2016-01-22 14:09:37,678 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Initializing database schema creation
+2016-01-22 14:09:37,724 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoNode] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[trashed] BIT NOT NULL CONSTRAINT [DF_umbracoNode_trashed] DEFAULT ('0'),
+[parentID] INTEGER NOT NULL,
+[nodeUser] INTEGER NULL,
+[level] INTEGER NOT NULL,
+[path] NVARCHAR(150) NOT NULL,
+[sortOrder] INTEGER NOT NULL,
+[uniqueID] UniqueIdentifier NULL,
+[text] NVARCHAR(255) NULL,
+[nodeObjectType] UniqueIdentifier NULL,
+[createDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoNode_createDate] DEFAULT (getdate()))
+2016-01-22 14:09:37,734 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoNode] ADD CONSTRAINT [PK_structure] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:37,735 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoNode
+2016-01-22 14:09:37,760 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoNode
+2016-01-22 14:09:37,778 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoNode] ADD CONSTRAINT [FK_umbracoNode_umbracoNode_id] FOREIGN KEY ([parentID]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,800 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodeTrashed] ON [umbracoNode] ([trashed])
+2016-01-22 14:09:37,802 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodeParentId] ON [umbracoNode] ([parentID])
+2016-01-22 14:09:37,804 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodeUniqueID] ON [umbracoNode] ([uniqueID])
+2016-01-22 14:09:37,805 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoNodeObjectType] ON [umbracoNode] ([nodeObjectType])
+2016-01-22 14:09:37,807 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoNode' was created
+2016-01-22 14:09:37,810 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsContentType] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[nodeId] INTEGER NOT NULL,
+[alias] NVARCHAR(255) NULL,
+[icon] NVARCHAR(255) NULL,
+[thumbnail] NVARCHAR(255) NOT NULL CONSTRAINT [DF_cmsContentType_thumbnail] DEFAULT ('folder.png'),
+[description] NVARCHAR(1500) NULL,
+[isContainer] BIT NOT NULL CONSTRAINT [DF_cmsContentType_isContainer] DEFAULT ('0'),
+[allowAtRoot] BIT NOT NULL CONSTRAINT [DF_cmsContentType_allowAtRoot] DEFAULT ('0'))
+2016-01-22 14:09:37,813 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsContentType] ADD CONSTRAINT [PK_cmsContentType] PRIMARY KEY CLUSTERED ([pk])
+2016-01-22 14:09:37,813 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsContentType
+2016-01-22 14:09:37,815 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsContentType
+2016-01-22 14:09:37,818 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentType] ADD CONSTRAINT [FK_cmsContentType_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,820 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsContentType] ON [cmsContentType] ([nodeId])
+2016-01-22 14:09:37,822 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsContentType_icon] ON [cmsContentType] ([icon])
+2016-01-22 14:09:37,822 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsContentType' was created
+2016-01-22 14:09:37,824 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsTemplate] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[nodeId] INTEGER NOT NULL,
+[master] INTEGER NULL,
+[alias] NVARCHAR(100) NULL,
+[design] NTEXT NOT NULL)
+2016-01-22 14:09:37,828 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsTemplate] ADD CONSTRAINT [PK_cmsTemplate] PRIMARY KEY CLUSTERED ([pk])
+2016-01-22 14:09:37,828 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsTemplate
+2016-01-22 14:09:37,828 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsTemplate
+2016-01-22 14:09:37,829 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTemplate] ADD CONSTRAINT [FK_cmsTemplate_umbracoNode] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,830 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTemplate] ADD CONSTRAINT [FK_cmsTemplate_cmsTemplate] FOREIGN KEY ([master]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,830 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsTemplate_nodeId] ON [cmsTemplate] ([nodeId])
+2016-01-22 14:09:37,831 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsTemplate' was created
+2016-01-22 14:09:37,832 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsContent] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[nodeId] INTEGER NOT NULL,
+[contentType] INTEGER NOT NULL)
+2016-01-22 14:09:37,834 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsContent] ADD CONSTRAINT [PK_cmsContent] PRIMARY KEY CLUSTERED ([pk])
+2016-01-22 14:09:37,834 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsContent
+2016-01-22 14:09:37,834 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsContent
+2016-01-22 14:09:37,836 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContent] ADD CONSTRAINT [FK_cmsContent_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,837 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContent] ADD CONSTRAINT [FK_cmsContent_cmsContentType_nodeId] FOREIGN KEY ([contentType]) REFERENCES [cmsContentType] ([nodeId])
+2016-01-22 14:09:37,838 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsContent] ON [cmsContent] ([nodeId])
+2016-01-22 14:09:37,838 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsContent' was created
+2016-01-22 14:09:37,842 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsContentVersion] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[ContentId] INTEGER NOT NULL,
+[VersionId] UniqueIdentifier NOT NULL,
+[VersionDate] DATETIME NOT NULL CONSTRAINT [DF_cmsContentVersion_VersionDate] DEFAULT (getdate()),
+[LanguageLocale] NVARCHAR(10) NULL)
+2016-01-22 14:09:37,844 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsContentVersion] ADD CONSTRAINT [PK_cmsContentVersion] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:37,844 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsContentVersion
+2016-01-22 14:09:37,844 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsContentVersion
+2016-01-22 14:09:37,845 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentVersion] ADD CONSTRAINT [FK_cmsContentVersion_cmsContent_nodeId] FOREIGN KEY ([ContentId]) REFERENCES [cmsContent] ([nodeId])
+2016-01-22 14:09:37,845 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsContentVersion_ContentId] ON [cmsContentVersion] ([ContentId])
+2016-01-22 14:09:37,846 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsContentVersion_VersionId] ON [cmsContentVersion] ([VersionId])
+2016-01-22 14:09:37,846 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsContentVersion' was created
+2016-01-22 14:09:37,849 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsDocument] ([nodeId] INTEGER NOT NULL,
+[published] BIT NOT NULL,
+[documentUser] INTEGER NOT NULL,
+[versionId] UniqueIdentifier NOT NULL,
+[text] NVARCHAR(255) NOT NULL,
+[releaseDate] DATETIME NULL,
+[expireDate] DATETIME NULL,
+[updateDate] DATETIME NOT NULL CONSTRAINT [DF_cmsDocument_updateDate] DEFAULT (getdate()),
+[templateId] INTEGER NULL,
+[newest] BIT NOT NULL CONSTRAINT [DF_cmsDocument_newest] DEFAULT ('0'))
+2016-01-22 14:09:37,851 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [PK_cmsDocument] PRIMARY KEY CLUSTERED ([versionId])
+2016-01-22 14:09:37,851 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsDocument
+2016-01-22 14:09:37,851 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsDocument
+2016-01-22 14:09:37,852 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [FK_cmsDocument_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+2016-01-22 14:09:37,853 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [FK_cmsDocument_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,854 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocument] ADD CONSTRAINT [FK_cmsDocument_cmsTemplate_nodeId] FOREIGN KEY ([templateId]) REFERENCES [cmsTemplate] ([nodeId])
+2016-01-22 14:09:37,855 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsDocument] ON [cmsDocument] ([nodeId],[versionId])
+2016-01-22 14:09:37,856 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsDocument_published] ON [cmsDocument] ([published])
+2016-01-22 14:09:37,857 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsDocument_newest] ON [cmsDocument] ([newest])
+2016-01-22 14:09:37,859 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsDocument' was created
+2016-01-22 14:09:37,861 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsDocumentType] ([contentTypeNodeId] INTEGER NOT NULL,
+[templateNodeId] INTEGER NOT NULL,
+[IsDefault] BIT NOT NULL CONSTRAINT [DF_cmsDocumentType_IsDefault] DEFAULT ('0'))
+2016-01-22 14:09:37,863 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [PK_cmsDocumentType] PRIMARY KEY CLUSTERED ([contentTypeNodeId], [templateNodeId])
+2016-01-22 14:09:37,863 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsDocumentType
+2016-01-22 14:09:37,863 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsDocumentType
+2016-01-22 14:09:37,864 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [FK_cmsDocumentType_cmsContentType_nodeId] FOREIGN KEY ([contentTypeNodeId]) REFERENCES [cmsContentType] ([nodeId])
+2016-01-22 14:09:37,864 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [FK_cmsDocumentType_umbracoNode_id] FOREIGN KEY ([contentTypeNodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,865 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDocumentType] ADD CONSTRAINT [FK_cmsDocumentType_cmsTemplate_nodeId] FOREIGN KEY ([templateNodeId]) REFERENCES [cmsTemplate] ([nodeId])
+2016-01-22 14:09:37,865 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsDocumentType' was created
+2016-01-22 14:09:37,867 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsDataType] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[nodeId] INTEGER NOT NULL,
+[propertyEditorAlias] NVARCHAR(255) NOT NULL,
+[dbType] NVARCHAR(50) NOT NULL)
+2016-01-22 14:09:37,868 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsDataType] ADD CONSTRAINT [PK_cmsDataType] PRIMARY KEY CLUSTERED ([pk])
+2016-01-22 14:09:37,868 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsDataType
+2016-01-22 14:09:37,877 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsDataType
+2016-01-22 14:09:37,880 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDataType] ADD CONSTRAINT [FK_cmsDataType_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,881 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsDataType_nodeId] ON [cmsDataType] ([nodeId])
+2016-01-22 14:09:37,882 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsDataType' was created
+2016-01-22 14:09:37,883 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsDataTypePreValues] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[datatypeNodeId] INTEGER NOT NULL,
+[value] NTEXT NULL,
+[sortorder] INTEGER NOT NULL,
+[alias] NVARCHAR(50) NULL)
+2016-01-22 14:09:37,884 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsDataTypePreValues] ADD CONSTRAINT [PK_cmsDataTypePreValues] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:37,885 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsDataTypePreValues
+2016-01-22 14:09:37,888 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsDataTypePreValues
+2016-01-22 14:09:37,892 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsDataTypePreValues] ADD CONSTRAINT [FK_cmsDataTypePreValues_cmsDataType_nodeId] FOREIGN KEY ([datatypeNodeId]) REFERENCES [cmsDataType] ([nodeId])
+2016-01-22 14:09:37,893 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsDataTypePreValues' was created
+2016-01-22 14:09:37,894 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsDictionary] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[id] UniqueIdentifier NOT NULL,
+[parent] UniqueIdentifier NOT NULL,
+[key] NVARCHAR(1000) NOT NULL)
+2016-01-22 14:09:37,895 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsDictionary] ADD CONSTRAINT [PK_cmsDictionary] PRIMARY KEY CLUSTERED ([pk])
+2016-01-22 14:09:37,895 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsDictionary
+2016-01-22 14:09:37,895 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsDictionary
+2016-01-22 14:09:37,896 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsDictionary_id] ON [cmsDictionary] ([id])
+2016-01-22 14:09:37,896 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsDictionary' was created
+2016-01-22 14:09:37,898 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsLanguageText] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[languageId] INTEGER NOT NULL,
+[UniqueId] UniqueIdentifier NOT NULL,
+[value] NVARCHAR(1000) NOT NULL)
+2016-01-22 14:09:37,900 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsLanguageText] ADD CONSTRAINT [PK_cmsLanguageText] PRIMARY KEY CLUSTERED ([pk])
+2016-01-22 14:09:37,900 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsLanguageText
+2016-01-22 14:09:37,900 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsLanguageText
+2016-01-22 14:09:37,901 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsLanguageText] ADD CONSTRAINT [FK_cmsLanguageText_cmsDictionary_id] FOREIGN KEY ([UniqueId]) REFERENCES [cmsDictionary] ([id])
+2016-01-22 14:09:37,901 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsLanguageText' was created
+2016-01-22 14:09:37,903 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoLanguage] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[languageISOCode] NVARCHAR(10) NULL,
+[languageCultureName] NVARCHAR(100) NULL)
+2016-01-22 14:09:37,905 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoLanguage] ADD CONSTRAINT [PK_umbracoLanguage] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:37,905 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoLanguage
+2016-01-22 14:09:37,906 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoLanguage
+2016-01-22 14:09:37,908 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_umbracoLanguage_languageISOCode] ON [umbracoLanguage] ([languageISOCode])
+2016-01-22 14:09:37,909 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoLanguage' was created
+2016-01-22 14:09:37,911 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoDomains] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[domainDefaultLanguage] INTEGER NULL,
+[domainRootStructureID] INTEGER NULL,
+[domainName] NVARCHAR(255) NOT NULL)
+2016-01-22 14:09:37,913 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoDomains] ADD CONSTRAINT [PK_umbracoDomains] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:37,913 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoDomains
+2016-01-22 14:09:37,913 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoDomains
+2016-01-22 14:09:37,914 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoDomains] ADD CONSTRAINT [FK_umbracoDomains_umbracoNode_id] FOREIGN KEY ([domainRootStructureID]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,915 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoDomains' was created
+2016-01-22 14:09:37,916 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoLog] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userId] INTEGER NOT NULL,
+[NodeId] INTEGER NOT NULL,
+[Datestamp] DATETIME NOT NULL CONSTRAINT [DF_umbracoLog_Datestamp] DEFAULT (getdate()),
+[logHeader] NVARCHAR(50) NOT NULL,
+[logComment] NVARCHAR(4000) NULL)
+2016-01-22 14:09:37,918 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoLog] ADD CONSTRAINT [PK_umbracoLog] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:37,918 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoLog
+2016-01-22 14:09:37,918 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoLog
+2016-01-22 14:09:37,919 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoLog] ON [umbracoLog] ([NodeId])
+2016-01-22 14:09:37,919 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoLog' was created
+2016-01-22 14:09:37,925 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsMacro] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[macroUseInEditor] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroUseInEditor] DEFAULT ('0'),
+[macroRefreshRate] INTEGER NOT NULL CONSTRAINT [DF_cmsMacro_macroRefreshRate] DEFAULT ('0'),
+[macroAlias] NVARCHAR(255) NOT NULL,
+[macroName] NVARCHAR(255) NULL,
+[macroScriptType] NVARCHAR(255) NULL,
+[macroScriptAssembly] NVARCHAR(255) NULL,
+[macroXSLT] NVARCHAR(255) NULL,
+[macroCacheByPage] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroCacheByPage] DEFAULT ('1'),
+[macroCachePersonalized] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroCachePersonalized] DEFAULT ('0'),
+[macroDontRender] BIT NOT NULL CONSTRAINT [DF_cmsMacro_macroDontRender] DEFAULT ('0'),
+[macroPython] NVARCHAR(255) NULL)
+2016-01-22 14:09:37,927 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsMacro] ADD CONSTRAINT [PK_cmsMacro] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:37,928 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsMacro
+2016-01-22 14:09:37,928 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsMacro
+2016-01-22 14:09:37,929 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsMacroPropertyAlias] ON [cmsMacro] ([macroAlias])
+2016-01-22 14:09:37,929 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsMacro' was created
+2016-01-22 14:09:37,931 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsMacroProperty] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[editorAlias] NVARCHAR(255) NOT NULL,
+[macro] INTEGER NOT NULL,
+[macroPropertySortOrder] INTEGER NOT NULL CONSTRAINT [DF_cmsMacroProperty_macroPropertySortOrder] DEFAULT ('0'),
+[macroPropertyAlias] NVARCHAR(50) NOT NULL,
+[macroPropertyName] NVARCHAR(255) NOT NULL)
+2016-01-22 14:09:37,933 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsMacroProperty] ADD CONSTRAINT [PK_cmsMacroProperty] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:37,933 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsMacroProperty
+2016-01-22 14:09:37,933 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsMacroProperty
+2016-01-22 14:09:37,934 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMacroProperty] ADD CONSTRAINT [FK_cmsMacroProperty_cmsMacro_id] FOREIGN KEY ([macro]) REFERENCES [cmsMacro] ([id])
+2016-01-22 14:09:37,934 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_cmsMacroProperty_Alias] ON [cmsMacroProperty] ([macro],[macroPropertyAlias])
+2016-01-22 14:09:37,935 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsMacroProperty' was created
+2016-01-22 14:09:37,938 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsMemberType] ([pk] INTEGER NOT NULL IDENTITY(1,1),
+[NodeId] INTEGER NOT NULL,
+[propertytypeId] INTEGER NOT NULL,
+[memberCanEdit] BIT NOT NULL CONSTRAINT [DF_cmsMemberType_memberCanEdit] DEFAULT ('0'),
+[viewOnProfile] BIT NOT NULL CONSTRAINT [DF_cmsMemberType_viewOnProfile] DEFAULT ('0'))
+2016-01-22 14:09:37,940 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsMemberType] ADD CONSTRAINT [PK_cmsMemberType] PRIMARY KEY CLUSTERED ([pk])
+2016-01-22 14:09:37,941 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsMemberType
+2016-01-22 14:09:37,941 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsMemberType
+2016-01-22 14:09:37,942 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMemberType] ADD CONSTRAINT [FK_cmsMemberType_umbracoNode_id] FOREIGN KEY ([NodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,944 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMemberType] ADD CONSTRAINT [FK_cmsMemberType_cmsContentType_nodeId] FOREIGN KEY ([NodeId]) REFERENCES [cmsContentType] ([nodeId])
+2016-01-22 14:09:37,944 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsMemberType' was created
+2016-01-22 14:09:37,946 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsMember] ([nodeId] INTEGER NOT NULL,
+[Email] NVARCHAR(1000) NOT NULL CONSTRAINT [DF_cmsMember_Email] DEFAULT (''''),
+[LoginName] NVARCHAR(1000) NOT NULL CONSTRAINT [DF_cmsMember_LoginName] DEFAULT (''''),
+[Password] NVARCHAR(1000) NOT NULL CONSTRAINT [DF_cmsMember_Password] DEFAULT (''''))
+2016-01-22 14:09:37,948 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsMember] ADD CONSTRAINT [PK_cmsMember] PRIMARY KEY CLUSTERED ([nodeId])
+2016-01-22 14:09:37,948 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsMember
+2016-01-22 14:09:37,948 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsMember
+2016-01-22 14:09:37,948 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember] ADD CONSTRAINT [FK_cmsMember_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,949 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember] ADD CONSTRAINT [FK_cmsMember_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+2016-01-22 14:09:37,949 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsMember' was created
+2016-01-22 14:09:37,950 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsMember2MemberGroup] ([Member] INTEGER NOT NULL,
+[MemberGroup] INTEGER NOT NULL)
+2016-01-22 14:09:37,952 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsMember2MemberGroup] ADD CONSTRAINT [PK_cmsMember2MemberGroup] PRIMARY KEY CLUSTERED ([Member], [MemberGroup])
+2016-01-22 14:09:37,952 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsMember2MemberGroup
+2016-01-22 14:09:37,952 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsMember2MemberGroup
+2016-01-22 14:09:37,953 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember2MemberGroup] ADD CONSTRAINT [FK_cmsMember2MemberGroup_cmsMember_nodeId] FOREIGN KEY ([Member]) REFERENCES [cmsMember] ([nodeId])
+2016-01-22 14:09:37,953 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsMember2MemberGroup] ADD CONSTRAINT [FK_cmsMember2MemberGroup_umbracoNode_id] FOREIGN KEY ([MemberGroup]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:37,953 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsMember2MemberGroup' was created
+2016-01-22 14:09:37,955 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsContentXml] ([nodeId] INTEGER NOT NULL,
+[xml] NTEXT NOT NULL)
+2016-01-22 14:09:37,959 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsContentXml] ADD CONSTRAINT [PK_cmsContentXml] PRIMARY KEY CLUSTERED ([nodeId])
+2016-01-22 14:09:37,959 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsContentXml
+2016-01-22 14:09:37,959 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsContentXml
+2016-01-22 14:09:37,960 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentXml] ADD CONSTRAINT [FK_cmsContentXml_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+2016-01-22 14:09:37,960 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsContentXml' was created
+2016-01-22 14:09:37,962 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsPreviewXml] ([nodeId] INTEGER NOT NULL,
+[versionId] UniqueIdentifier NOT NULL,
+[timestamp] DATETIME NOT NULL,
+[xml] NTEXT NOT NULL)
+2016-01-22 14:09:37,963 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsPreviewXml] ADD CONSTRAINT [PK_cmsContentPreviewXml] PRIMARY KEY CLUSTERED ([nodeId], [versionId])
+2016-01-22 14:09:37,963 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsPreviewXml
+2016-01-22 14:09:37,963 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsPreviewXml
+2016-01-22 14:09:37,964 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPreviewXml] ADD CONSTRAINT [FK_cmsPreviewXml_cmsContent_nodeId] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+2016-01-22 14:09:37,964 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPreviewXml] ADD CONSTRAINT [FK_cmsPreviewXml_cmsContentVersion_VersionId] FOREIGN KEY ([versionId]) REFERENCES [cmsContentVersion] ([VersionId])
+2016-01-22 14:09:37,965 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsPreviewXml' was created
+2016-01-22 14:09:37,966 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsPropertyTypeGroup] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[parentGroupId] INTEGER NULL,
+[contenttypeNodeId] INTEGER NOT NULL,
+[text] NVARCHAR(255) NOT NULL,
+[sortorder] INTEGER NOT NULL)
+2016-01-22 14:09:37,967 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsPropertyTypeGroup] ADD CONSTRAINT [PK_cmsPropertyTypeGroup] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:37,967 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsPropertyTypeGroup
+2016-01-22 14:09:37,970 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsPropertyTypeGroup
+2016-01-22 14:09:37,974 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyTypeGroup] ADD CONSTRAINT [FK_cmsPropertyTypeGroup_cmsPropertyTypeGroup_id] FOREIGN KEY ([parentGroupId]) REFERENCES [cmsPropertyTypeGroup] ([id])
+2016-01-22 14:09:37,978 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyTypeGroup] ADD CONSTRAINT [FK_cmsPropertyTypeGroup_cmsContentType_nodeId] FOREIGN KEY ([contenttypeNodeId]) REFERENCES [cmsContentType] ([nodeId])
+2016-01-22 14:09:37,979 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsPropertyTypeGroup' was created
+2016-01-22 14:09:37,981 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsPropertyType] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[dataTypeId] INTEGER NOT NULL,
+[contentTypeId] INTEGER NOT NULL,
+[propertyTypeGroupId] INTEGER NULL,
+[Alias] NVARCHAR(255) NOT NULL,
+[Name] NVARCHAR(255) NULL,
+[helpText] NVARCHAR(1000) NULL,
+[sortOrder] INTEGER NOT NULL CONSTRAINT [DF_cmsPropertyType_sortOrder] DEFAULT ('0'),
+[mandatory] BIT NOT NULL CONSTRAINT [DF_cmsPropertyType_mandatory] DEFAULT ('0'),
+[validationRegExp] NVARCHAR(255) NULL,
+[Description] NVARCHAR(2000) NULL)
+2016-01-22 14:09:37,982 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [PK_cmsPropertyType] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:37,983 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsPropertyType
+2016-01-22 14:09:37,988 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsPropertyType
+2016-01-22 14:09:37,993 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [FK_cmsPropertyType_cmsDataType_nodeId] FOREIGN KEY ([dataTypeId]) REFERENCES [cmsDataType] ([nodeId])
+2016-01-22 14:09:37,995 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [FK_cmsPropertyType_cmsContentType_nodeId] FOREIGN KEY ([contentTypeId]) REFERENCES [cmsContentType] ([nodeId])
+2016-01-22 14:09:37,997 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyType] ADD CONSTRAINT [FK_cmsPropertyType_cmsPropertyTypeGroup_id] FOREIGN KEY ([propertyTypeGroupId]) REFERENCES [cmsPropertyTypeGroup] ([id])
+2016-01-22 14:09:37,998 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsPropertyType' was created
+2016-01-22 14:09:38,000 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsPropertyData] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[contentNodeId] INTEGER NOT NULL,
+[versionId] UniqueIdentifier NULL,
+[propertytypeid] INTEGER NOT NULL,
+[dataInt] INTEGER NULL,
+[dataDate] DATETIME NULL,
+[dataNvarchar] NVARCHAR(500) NULL,
+[dataNtext] NTEXT NULL)
+2016-01-22 14:09:38,002 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsPropertyData] ADD CONSTRAINT [PK_cmsPropertyData] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:38,002 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsPropertyData
+2016-01-22 14:09:38,002 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsPropertyData
+2016-01-22 14:09:38,003 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyData] ADD CONSTRAINT [FK_cmsPropertyData_umbracoNode_id] FOREIGN KEY ([contentNodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:38,004 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsPropertyData] ADD CONSTRAINT [FK_cmsPropertyData_cmsPropertyType_id] FOREIGN KEY ([propertytypeid]) REFERENCES [cmsPropertyType] ([id])
+2016-01-22 14:09:38,004 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsPropertyData] ON [cmsPropertyData] ([id])
+2016-01-22 14:09:38,005 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsPropertyData_1] ON [cmsPropertyData] ([contentNodeId])
+2016-01-22 14:09:38,005 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsPropertyData_2] ON [cmsPropertyData] ([versionId])
+2016-01-22 14:09:38,006 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsPropertyData_3] ON [cmsPropertyData] ([propertytypeid])
+2016-01-22 14:09:38,007 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsPropertyData' was created
+2016-01-22 14:09:38,008 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoRelationType] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[dual] BIT NOT NULL,
+[parentObjectType] UniqueIdentifier NOT NULL,
+[childObjectType] UniqueIdentifier NOT NULL,
+[name] NVARCHAR(255) NOT NULL,
+[alias] NVARCHAR(100) NULL)
+2016-01-22 14:09:38,010 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoRelationType] ADD CONSTRAINT [PK_umbracoRelationType] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:38,010 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoRelationType
+2016-01-22 14:09:38,011 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoRelationType
+2016-01-22 14:09:38,012 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoRelationType' was created
+2016-01-22 14:09:38,014 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoRelation] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[parentId] INTEGER NOT NULL,
+[childId] INTEGER NOT NULL,
+[relType] INTEGER NOT NULL,
+[datetime] DATETIME NOT NULL CONSTRAINT [DF_umbracoRelation_datetime] DEFAULT (getdate()),
+[comment] NVARCHAR(1000) NOT NULL)
+2016-01-22 14:09:38,015 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [PK_umbracoRelation] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:38,016 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoRelation
+2016-01-22 14:09:38,016 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoRelation
+2016-01-22 14:09:38,017 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [FK_umbracoRelation_umbracoNode] FOREIGN KEY ([parentId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:38,018 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [FK_umbracoRelation_umbracoNode1] FOREIGN KEY ([childId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:38,019 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoRelation] ADD CONSTRAINT [FK_umbracoRelation_umbracoRelationType_id] FOREIGN KEY ([relType]) REFERENCES [umbracoRelationType] ([id])
+2016-01-22 14:09:38,019 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoRelation' was created
+2016-01-22 14:09:38,020 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsStylesheet] ([nodeId] INTEGER NOT NULL,
+[filename] NVARCHAR(100) NOT NULL,
+[content] NTEXT NULL)
+2016-01-22 14:09:38,021 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsStylesheet] ADD CONSTRAINT [PK_cmsStylesheet] PRIMARY KEY CLUSTERED ([nodeId])
+2016-01-22 14:09:38,021 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsStylesheet
+2016-01-22 14:09:38,021 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsStylesheet
+2016-01-22 14:09:38,022 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsStylesheet] ADD CONSTRAINT [FK_cmsStylesheet_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:38,023 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsStylesheet' was created
+2016-01-22 14:09:38,025 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsStylesheetProperty] ([nodeId] INTEGER NOT NULL,
+[stylesheetPropertyEditor] BIT NULL,
+[stylesheetPropertyAlias] NVARCHAR(50) NULL,
+[stylesheetPropertyValue] NVARCHAR(400) NULL)
+2016-01-22 14:09:38,026 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsStylesheetProperty] ADD CONSTRAINT [PK_cmsStylesheetProperty] PRIMARY KEY CLUSTERED ([nodeId])
+2016-01-22 14:09:38,026 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsStylesheetProperty
+2016-01-22 14:09:38,026 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsStylesheetProperty
+2016-01-22 14:09:38,026 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsStylesheetProperty' was created
+2016-01-22 14:09:38,028 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsTags] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[tag] NVARCHAR(200) NULL,
+[ParentId] INTEGER NULL,
+[group] NVARCHAR(100) NULL)
+2016-01-22 14:09:38,029 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsTags] ADD CONSTRAINT [PK_cmsTags] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:38,029 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsTags
+2016-01-22 14:09:38,029 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsTags
+2016-01-22 14:09:38,031 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTags] ADD CONSTRAINT [FK_cmsTags_cmsTags] FOREIGN KEY ([ParentId]) REFERENCES [cmsTags] ([id])
+2016-01-22 14:09:38,031 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsTags] ON [cmsTags] ([tag],[group])
+2016-01-22 14:09:38,032 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsTags' was created
+2016-01-22 14:09:38,033 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsTagRelationship] ([nodeId] INTEGER NOT NULL,
+[tagId] INTEGER NOT NULL,
+[propertyTypeId] INTEGER NOT NULL)
+2016-01-22 14:09:38,036 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [PK_cmsTagRelationship] PRIMARY KEY CLUSTERED ([nodeId], [propertyTypeId], [tagId])
+2016-01-22 14:09:38,036 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsTagRelationship
+2016-01-22 14:09:38,036 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsTagRelationship
+2016-01-22 14:09:38,037 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [FK_cmsTagRelationship_cmsContent] FOREIGN KEY ([nodeId]) REFERENCES [cmsContent] ([nodeId])
+2016-01-22 14:09:38,037 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [FK_cmsTagRelationship_cmsTags_id] FOREIGN KEY ([tagId]) REFERENCES [cmsTags] ([id])
+2016-01-22 14:09:38,038 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTagRelationship] ADD CONSTRAINT [FK_cmsTagRelationship_cmsPropertyType] FOREIGN KEY ([propertyTypeId]) REFERENCES [cmsPropertyType] ([id])
+2016-01-22 14:09:38,038 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsTagRelationship' was created
+2016-01-22 14:09:38,040 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoUserLogins] ([contextID] UniqueIdentifier NOT NULL,
+[userID] INTEGER NOT NULL,
+[timeout] BIGINT NOT NULL)
+2016-01-22 14:09:38,040 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoUserLogins
+2016-01-22 14:09:38,040 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoUserLogins
+2016-01-22 14:09:38,041 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE CLUSTERED INDEX [IX_umbracoUserLogins_Index] ON [umbracoUserLogins] ([contextID])
+2016-01-22 14:09:38,041 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoUserLogins' was created
+2016-01-22 14:09:38,042 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoUserType] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userTypeAlias] NVARCHAR(50) NULL,
+[userTypeName] NVARCHAR(255) NOT NULL,
+[userTypeDefaultPermissions] NVARCHAR(50) NULL)
+2016-01-22 14:09:38,044 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoUserType] ADD CONSTRAINT [PK_umbracoUserType] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:38,044 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoUserType
+2016-01-22 14:09:38,046 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoUserType
+2016-01-22 14:09:38,046 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoUserType' was created
+2016-01-22 14:09:38,048 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoUser] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[userDisabled] BIT NOT NULL CONSTRAINT [DF_umbracoUser_userDisabled] DEFAULT ('0'),
+[userNoConsole] BIT NOT NULL CONSTRAINT [DF_umbracoUser_userNoConsole] DEFAULT ('0'),
+[userType] INTEGER NOT NULL,
+[startStructureID] INTEGER NOT NULL,
+[startMediaID] INTEGER NULL,
+[userName] NVARCHAR(255) NOT NULL,
+[userLogin] NVARCHAR(125) NOT NULL,
+[userPassword] NVARCHAR(500) NOT NULL,
+[userEmail] NVARCHAR(255) NOT NULL,
+[userLanguage] NVARCHAR(10) NULL)
+2016-01-22 14:09:38,050 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoUser] ADD CONSTRAINT [PK_user] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:38,050 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoUser
+2016-01-22 14:09:38,052 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoUser
+2016-01-22 14:09:38,055 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser] ADD CONSTRAINT [FK_umbracoUser_umbracoUserType_id] FOREIGN KEY ([userType]) REFERENCES [umbracoUserType] ([id])
+2016-01-22 14:09:38,059 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoUser_userLogin] ON [umbracoUser] ([userLogin])
+2016-01-22 14:09:38,059 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoUser' was created
+2016-01-22 14:09:38,061 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsTaskType] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[alias] NVARCHAR(255) NOT NULL)
+2016-01-22 14:09:38,063 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsTaskType] ADD CONSTRAINT [PK_cmsTaskType] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:38,063 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsTaskType
+2016-01-22 14:09:38,064 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsTaskType
+2016-01-22 14:09:38,066 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_cmsTaskType_alias] ON [cmsTaskType] ([alias])
+2016-01-22 14:09:38,066 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsTaskType' was created
+2016-01-22 14:09:38,068 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsTask] ([closed] BIT NOT NULL CONSTRAINT [DF_cmsTask_closed] DEFAULT ('0'),
+[id] INTEGER NOT NULL IDENTITY(1,1),
+[taskTypeId] INTEGER NOT NULL,
+[nodeId] INTEGER NOT NULL,
+[parentUserId] INTEGER NOT NULL,
+[userId] INTEGER NOT NULL,
+[DateTime] DATETIME NOT NULL CONSTRAINT [DF_cmsTask_DateTime] DEFAULT (getdate()),
+[Comment] NVARCHAR(500) NULL)
+2016-01-22 14:09:38,070 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [PK_cmsTask] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:38,070 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsTask
+2016-01-22 14:09:38,070 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsTask
+2016-01-22 14:09:38,071 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_cmsTaskType_id] FOREIGN KEY ([taskTypeId]) REFERENCES [cmsTaskType] ([id])
+2016-01-22 14:09:38,072 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:38,073 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_umbracoUser] FOREIGN KEY ([parentUserId]) REFERENCES [umbracoUser] ([id])
+2016-01-22 14:09:38,074 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsTask] ADD CONSTRAINT [FK_cmsTask_umbracoUser1] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+2016-01-22 14:09:38,074 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsTask' was created
+2016-01-22 14:09:38,076 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsContentType2ContentType] ([parentContentTypeId] INTEGER NOT NULL,
+[childContentTypeId] INTEGER NOT NULL)
+2016-01-22 14:09:38,078 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsContentType2ContentType] ADD CONSTRAINT [PK_cmsContentType2ContentType] PRIMARY KEY CLUSTERED ([parentContentTypeId], [childContentTypeId])
+2016-01-22 14:09:38,078 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsContentType2ContentType
+2016-01-22 14:09:38,078 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsContentType2ContentType
+2016-01-22 14:09:38,079 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentType2ContentType] ADD CONSTRAINT [FK_cmsContentType2ContentType_umbracoNode_parent] FOREIGN KEY ([parentContentTypeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:38,080 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentType2ContentType] ADD CONSTRAINT [FK_cmsContentType2ContentType_umbracoNode_child] FOREIGN KEY ([childContentTypeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:38,080 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsContentType2ContentType' was created
+2016-01-22 14:09:38,082 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [cmsContentTypeAllowedContentType] ([Id] INTEGER NOT NULL,
+[AllowedId] INTEGER NOT NULL,
+[SortOrder] INTEGER NOT NULL CONSTRAINT df_cmsContentTypeAllowedContentType_sortOrder DEFAULT ('0'))
+2016-01-22 14:09:38,085 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [cmsContentTypeAllowedContentType] ADD CONSTRAINT [PK_cmsContentTypeAllowedContentType] PRIMARY KEY CLUSTERED ([Id], [AllowedId])
+2016-01-22 14:09:38,085 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table cmsContentTypeAllowedContentType
+2016-01-22 14:09:38,087 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table cmsContentTypeAllowedContentType
+2016-01-22 14:09:38,089 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentTypeAllowedContentType] ADD CONSTRAINT [FK_cmsContentTypeAllowedContentType_cmsContentType] FOREIGN KEY ([Id]) REFERENCES [cmsContentType] ([nodeId])
+2016-01-22 14:09:38,092 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [cmsContentTypeAllowedContentType] ADD CONSTRAINT [FK_cmsContentTypeAllowedContentType_cmsContentType1] FOREIGN KEY ([AllowedId]) REFERENCES [cmsContentType] ([nodeId])
+2016-01-22 14:09:38,093 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'cmsContentTypeAllowedContentType' was created
+2016-01-22 14:09:38,094 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoUser2app] ([user] INTEGER NOT NULL,
+[app] NVARCHAR(50) NOT NULL)
+2016-01-22 14:09:38,097 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoUser2app] ADD CONSTRAINT [PK_user2app] PRIMARY KEY CLUSTERED ([user], [app])
+2016-01-22 14:09:38,097 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoUser2app
+2016-01-22 14:09:38,098 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoUser2app
+2016-01-22 14:09:38,100 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2app] ADD CONSTRAINT [FK_umbracoUser2app_umbracoUser_id] FOREIGN KEY ([user]) REFERENCES [umbracoUser] ([id])
+2016-01-22 14:09:38,101 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoUser2app' was created
+2016-01-22 14:09:38,102 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoUser2NodeNotify] ([userId] INTEGER NOT NULL,
+[nodeId] INTEGER NOT NULL,
+[action] NCHAR(1) NOT NULL)
+2016-01-22 14:09:38,104 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoUser2NodeNotify] ADD CONSTRAINT [PK_umbracoUser2NodeNotify] PRIMARY KEY CLUSTERED ([userId], [nodeId], [action])
+2016-01-22 14:09:38,104 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoUser2NodeNotify
+2016-01-22 14:09:38,104 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoUser2NodeNotify
+2016-01-22 14:09:38,105 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2NodeNotify] ADD CONSTRAINT [FK_umbracoUser2NodeNotify_umbracoUser_id] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+2016-01-22 14:09:38,106 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2NodeNotify] ADD CONSTRAINT [FK_umbracoUser2NodeNotify_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:38,107 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoUser2NodeNotify' was created
+2016-01-22 14:09:38,109 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoUser2NodePermission] ([userId] INTEGER NOT NULL,
+[nodeId] INTEGER NOT NULL,
+[permission] NVARCHAR(255) NOT NULL)
+2016-01-22 14:09:38,111 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoUser2NodePermission] ADD CONSTRAINT [PK_umbracoUser2NodePermission] PRIMARY KEY CLUSTERED ([userId], [nodeId], [permission])
+2016-01-22 14:09:38,111 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoUser2NodePermission
+2016-01-22 14:09:38,111 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoUser2NodePermission
+2016-01-22 14:09:38,112 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2NodePermission] ADD CONSTRAINT [FK_umbracoUser2NodePermission_umbracoUser_id] FOREIGN KEY ([userId]) REFERENCES [umbracoUser] ([id])
+2016-01-22 14:09:38,113 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Foreign Key sql -1:
+ ALTER TABLE [umbracoUser2NodePermission] ADD CONSTRAINT [FK_umbracoUser2NodePermission_umbracoNode_id] FOREIGN KEY ([nodeId]) REFERENCES [umbracoNode] ([id])
+2016-01-22 14:09:38,113 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoUser2NodePermission' was created
+2016-01-22 14:09:38,115 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Table sql -1:
+ CREATE TABLE [umbracoServer] ([id] INTEGER NOT NULL IDENTITY(1,1),
+[address] NVARCHAR(500) NOT NULL,
+[computerName] NVARCHAR(255) NOT NULL,
+[registeredDate] DATETIME NOT NULL CONSTRAINT [DF_umbracoServer_registeredDate] DEFAULT (getdate()),
+[lastNotifiedDate] DATETIME NOT NULL,
+[isActive] BIT NOT NULL)
+2016-01-22 14:09:38,117 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Primary Key sql -1:
+ ALTER TABLE [umbracoServer] ADD CONSTRAINT [PK_umbracoServer] PRIMARY KEY CLUSTERED ([id])
+2016-01-22 14:09:38,117 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Creating data in table umbracoServer
+2016-01-22 14:09:38,117 [18] INFO  Umbraco.Core.Persistence.Migrations.Initial.BaseDataCreation - [P12092/T1/D4] Done creating data in table umbracoServer
+2016-01-22 14:09:38,118 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_computerName] ON [umbracoServer] ([computerName])
+2016-01-22 14:09:38,118 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Create Index sql -1:
+ CREATE NONCLUSTERED INDEX [IX_umbracoServer_isActive] ON [umbracoServer] ([isActive])
+2016-01-22 14:09:38,119 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] New table 'umbracoServer' was created
+2016-01-22 14:09:38,119 [18] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D4] Finalized database schema creation
+2016-01-22 14:09:38,119 [18] INFO  Umbraco.Core.DatabaseContext - [P12092/T1/D4] Database configuration status: <p>Installation completed!</p>
+2016-01-22 14:09:38,121 [18] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P12092/T1/D4] Step completed (took 926ms)
+2016-01-22 14:09:38,220 [18] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P12092/T1/D4] Executing installation step: User
+2016-01-22 14:09:38,354 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-22 14:09:38,371 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 16ms)
+2016-01-22 14:09:38,485 [18] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P12092/T1/D4] Step completed (took 265ms)
+2016-01-22 14:09:38,498 [18] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P12092/T1/D4] Executing installation step: UmbracoVersion
+2016-01-22 14:09:38,504 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-01-22 14:09:38,511 [18] INFO  Umbraco.Core.PluginManager - [P12092/T1/D4] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 7ms)
+2016-01-22 14:09:38,518 [18] WARN  Umbraco.Web.WebBootManager - [P12092/T1/D4] Could not initialize the DefaultServerMessenger, the application is not configured or the database is not configured
+2016-01-22 14:09:38,527 [18] INFO  umbraco.content - [P12092/T1/D4] Load Xml from file...
+2016-01-22 14:09:38,527 [18] WARN  umbraco.content - [P12092/T1/D4] Failed to load Xml, file does not exist.
+2016-01-22 14:09:38,530 [18] INFO  umbraco.content - [P12092/T1/D4] Loading content from database...
+2016-01-22 14:09:38,605 [18] INFO  umbraco.content - [P12092/T1/D4] Loading content from database...
+2016-01-22 14:09:38,612 [18] INFO  Umbraco.Core.Configuration.ClientDependencyConfiguration - [P12092/T1/D4] Updated version number from 1 to 1567501295
+2016-01-22 14:09:38,619 [18] INFO  umbraco.content - [P12092/T1/D4] Save Xml to file...
+2016-01-22 14:09:38,625 [18] INFO  umbraco.content - [P12092/T1/D4] Saved Xml to file.
+2016-01-22 14:09:38,631 [18] INFO  Umbraco.Web.Security.WebSecurity - [P12092/T1/D4] User Id: 0 logged in
+2016-01-22 14:09:39,138 [18] INFO  Umbraco.Web.Install.Controllers.InstallApiController - [P12092/T1/D4] Step completed (took 640ms)
+2016-01-22 14:09:39,169 [18] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P12092/T1/D4] Provider=InternalMemberIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalMemberIndexSet
+2016-01-22 14:09:39,392 [27] INFO  Umbraco.Core.CoreBootManager - [P12092/T1/D5] Umbraco 7.2.8 application starting on MA-VPC-024
+2016-01-22 14:09:39,421 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Determining hash of code files on disk
+2016-01-22 14:09:39,427 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Hash determined (took 5ms)
+2016-01-22 14:09:39,433 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-22 14:09:39,451 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 16ms)
+2016-01-22 14:09:39,534 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-22 14:09:39,535 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-22 14:09:39,535 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-22 14:09:39,536 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2016-01-22 14:09:39,548 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-22 14:09:39,548 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-01-22 14:09:39,548 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-22 14:09:39,550 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 1ms)
+2016-01-22 14:09:39,578 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-22 14:09:39,578 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-22 14:09:39,578 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-22 14:09:39,579 [27] INFO  Umbraco.Core.PluginManager - [P12092/T1/D5] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-22 14:09:39,669 [18] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P12092/T1/D4] Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalIndexSet
+2016-01-22 14:09:40,169 [18] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P12092/T1/D4] Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: ExternalIndexSet
+2016-01-22 14:09:40,183 [27] INFO  Umbraco.Core.DatabaseContext - [P12092/T1/D5] CanConnect = True
+2016-01-22 14:09:40,192 [27] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P12092/T1/D5] Initializing Umbraco internal event handlers for cache refreshing
+2016-01-22 14:09:40,214 [27] INFO  Umbraco.Web.Search.ExamineEvents - [P12092/T1/D5] Initializing Examine and binding to business logic events
+2016-01-22 14:09:40,259 [27] INFO  Umbraco.Web.Search.ExamineEvents - [P12092/T1/D5] Adding examine event handlers for index providers: 3
+2016-01-22 14:09:40,891 [27] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D5] Create Table sql -1:
+ CREATE TABLE [MigrationHistory] ([MigrationId] INTEGER NOT NULL IDENTITY(1,1),
+[Name] NVARCHAR(255) NOT NULL,
+[Timestamp] DATETIME NOT NULL CONSTRAINT [DF_MigrationHistory_Timestamp] DEFAULT (GETDATE()),
+[Completed] BIT NOT NULL CONSTRAINT [DF_MigrationHistory_Completed] DEFAULT ('0'))
+2016-01-22 14:09:40,899 [27] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D5] Primary Key sql -1:
+ ALTER TABLE [MigrationHistory] ADD CONSTRAINT [PK_MigrationHistory] PRIMARY KEY CLUSTERED ([MigrationId])
+2016-01-22 14:09:40,900 [27] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D5] Create Index sql -1:
+ CREATE UNIQUE NONCLUSTERED INDEX [IX_MigrationHistory_name] ON [MigrationHistory] ([Name])
+2016-01-22 14:09:40,900 [27] INFO  Umbraco.Core.Persistence.Database - [P12092/T1/D5] New table 'MigrationHistory' was created
+2016-01-22 14:09:40,908 [27] INFO  uFluent.Migrate.Persistence.TableFactory - Created MigrationHistory table.
+2016-01-22 14:09:40,910 [27] ERROR Umbraco.Core.CoreBootManager - [P12092/T1/D5] An error occurred running OnApplicationStarted for handler uFluentExample728.ApplicationStartupHandler
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uFluent.Configuration.uFluentSettings.get_Enabled() in c:\code\uFluent\uFluent\Configuration\uFluentConfiguration.cs:line 35
+   at uFluent.Migrate.MigrationProcessor.Run() in c:\code\uFluent\uFluent.Migrate\MigrationProcessor.cs:line 27
+   at uFluent.Migrate.uFluentMigrate.Run() in c:\code\uFluent\uFluent.Migrate\uFluentMigrate.cs:line 11
+   at uFluentExample728.ApplicationStartupHandler.ApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in c:\code\uFluent\uFluentExample728\App_Start\ApplicationStartupHandler.cs:line 11
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
+   at Umbraco.Core.CoreBootManager.<Complete>b__11(IApplicationEventHandler x)
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action)
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+2016-01-22 14:09:40,922 [27] ERROR Umbraco.Core.UmbracoApplicationBase - [P12092/T1/D5] An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at uFluent.Configuration.uFluentSettings.get_Enabled() in c:\code\uFluent\uFluent\Configuration\uFluentConfiguration.cs:line 35
+   at uFluent.Migrate.MigrationProcessor.Run() in c:\code\uFluent\uFluent.Migrate\MigrationProcessor.cs:line 27
+   at uFluent.Migrate.uFluentMigrate.Run() in c:\code\uFluent\uFluent.Migrate\uFluentMigrate.cs:line 11
+   at uFluentExample728.ApplicationStartupHandler.ApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext) in c:\code\uFluent\uFluentExample728\App_Start\ApplicationStartupHandler.cs:line 11
+   at Umbraco.Core.ApplicationEventHandler.OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
+   at Umbraco.Core.CoreBootManager.<Complete>b__11(IApplicationEventHandler x)
+   at Umbraco.Core.EnumerableExtensions.ForEach[TItem](IEnumerable`1 items, Action`1 action)
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+2016-01-22 14:09:41,605 [27] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P12092/T1/D5] Provider=InternalMemberIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalMemberIndexSet
+2016-01-22 14:09:42,107 [27] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P12092/T1/D5] Provider=InternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: InternalIndexSet
+2016-01-22 14:09:42,608 [27] ERROR UmbracoExamine.DataServices.UmbracoLogService - [P12092/T1/D5] Provider=ExternalIndexer, NodeId=-1
+System.Exception: Cannot index queue items, the index doesn't exist!,, IndexSet: ExternalIndexSet
+2016-01-22 14:10:07,004 [19] INFO  Umbraco.Core.UmbracoApplicationBase - [P12092/T1/D3] Application shutdown. Reason: ConfigurationChange
+2016-01-22 14:10:10,194 [18] INFO  Umbraco.Core.UmbracoApplicationBase - [P12092/T1/D4] Application shutdown. Reason: ConfigurationChange
+2016-01-22 14:10:12,625 [27] INFO  Umbraco.Core.UmbracoApplicationBase - [P12092/T1/D5] Application shutdown. Reason: CodeDirChangeOrDirectoryRename
+2016-01-22 14:11:14,875 [23] INFO  Umbraco.Core.CoreBootManager - [P12092/T1/D6] Umbraco 7.2.8 application starting on MA-VPC-024
+2016-01-22 14:11:14,904 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Determining hash of code files on disk
+2016-01-22 14:11:14,911 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Hash determined (took 5ms)
+2016-01-22 14:11:14,920 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-22 14:11:15,070 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 149ms)
+2016-01-22 14:11:15,128 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-22 14:11:15,131 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-01-22 14:11:15,131 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-22 14:11:15,134 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 2ms)
+2016-01-22 14:11:15,149 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-22 14:11:15,152 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 2ms)
+2016-01-22 14:11:15,152 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-22 14:11:15,154 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 2ms)
+2016-01-22 14:11:15,177 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-22 14:11:15,180 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2016-01-22 14:11:15,180 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-22 14:11:15,183 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2016-01-22 14:11:15,746 [23] INFO  Umbraco.Core.DatabaseContext - [P12092/T1/D6] CanConnect = True
+2016-01-22 14:11:15,751 [23] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P12092/T1/D6] Initializing Umbraco internal event handlers for cache refreshing
+2016-01-22 14:11:15,770 [23] INFO  Umbraco.Web.Search.ExamineEvents - [P12092/T1/D6] Initializing Examine and binding to business logic events
+2016-01-22 14:11:15,810 [23] INFO  Umbraco.Web.Search.ExamineEvents - [P12092/T1/D6] Adding examine event handlers for index providers: 3
+2016-01-22 14:11:16,081 [23] INFO  uFluent.Migrate.MigrationProcessor - ========== Executing migration uFluentExample728.ufluent.Migrate.Migrations.Homepage.HomepageCreateTemplateAndDocType ==========
+2016-01-22 14:11:16,193 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2016-01-22 14:11:16,200 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 6ms)
+2016-01-22 14:11:16,267 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-22 14:11:16,271 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 3ms)
+2016-01-22 14:11:16,723 [23] INFO  uFluent.Migrate.MigrationProcessor - ---------- Executed migration uFluentExample728.ufluent.Migrate.Migrations.Homepage.HomepageCreateTemplateAndDocType ----------
+2016-01-22 14:11:16,726 [23] INFO  uFluent.Migrate.MigrationProcessor - Transaction completed
+2016-01-22 14:11:16,726 [23] INFO  uFluent.Migrate.MigrationProcessor - Shared connection closed.
+2016-01-22 14:11:16,727 [23] INFO  uFluent.Migrate.MigrationProcessor - ========== Executing migration uFluentExample728.ufluent.Migrate.Migrations.Category.CategoryCreateTemplateAndDocType ==========
+2016-01-22 14:11:16,967 [23] INFO  uFluent.Migrate.MigrationProcessor - ---------- Executed migration uFluentExample728.ufluent.Migrate.Migrations.Category.CategoryCreateTemplateAndDocType ----------
+2016-01-22 14:11:16,967 [23] INFO  uFluent.Migrate.MigrationProcessor - Transaction completed
+2016-01-22 14:11:16,967 [23] INFO  uFluent.Migrate.MigrationProcessor - Shared connection closed.
+2016-01-22 14:11:16,968 [23] INFO  uFluent.Migrate.MigrationProcessor - ========== Executing migration uFluentExample728.ufluent.Migrate.Migrations.Article.ArticleCreateTemplateAndDocType ==========
+2016-01-22 14:11:17,029 [23] INFO  uFluent.Migrate.MigrationProcessor - ---------- Executed migration uFluentExample728.ufluent.Migrate.Migrations.Article.ArticleCreateTemplateAndDocType ----------
+2016-01-22 14:11:17,030 [23] INFO  uFluent.Migrate.MigrationProcessor - Transaction completed
+2016-01-22 14:11:17,030 [23] INFO  uFluent.Migrate.MigrationProcessor - Shared connection closed.
+2016-01-22 14:11:17,030 [23] INFO  uFluent.Migrate.MigrationProcessor - ========== Executing migration uFluentExample728.ufluent.Migrate.Migrations.UsefulLinksPicker.UsefulLinksPickerCreateDataType ==========
+2016-01-22 14:11:17,171 [23] INFO  uFluent.Migrate.MigrationProcessor - ---------- Executed migration uFluentExample728.ufluent.Migrate.Migrations.UsefulLinksPicker.UsefulLinksPickerCreateDataType ----------
+2016-01-22 14:11:17,171 [23] INFO  uFluent.Migrate.MigrationProcessor - Transaction completed
+2016-01-22 14:11:17,171 [23] INFO  uFluent.Migrate.MigrationProcessor - Shared connection closed.
+2016-01-22 14:11:17,172 [23] INFO  uFluent.Migrate.MigrationProcessor - ========== Executing migration uFluentExample728.ufluent.Migrate.Migrations.UsefulLinksPicker.UsefulLinksPickerAddHomepageCategoryArticleDocTypes ==========
+2016-01-22 14:11:17,227 [23] INFO  uFluent.Migrate.MigrationProcessor - ---------- Executed migration uFluentExample728.ufluent.Migrate.Migrations.UsefulLinksPicker.UsefulLinksPickerAddHomepageCategoryArticleDocTypes ----------
+2016-01-22 14:11:17,227 [23] INFO  uFluent.Migrate.MigrationProcessor - Transaction completed
+2016-01-22 14:11:17,227 [23] INFO  uFluent.Migrate.MigrationProcessor - Shared connection closed.
+2016-01-22 14:11:17,228 [23] INFO  uFluent.Migrate.MigrationProcessor - ========== Executing migration uFluentExample728.uFluent.Migrate.Migrations.DocumentTypeSetIcons ==========
+2016-01-22 14:11:17,265 [23] INFO  uFluent.Migrate.MigrationProcessor - ---------- Executed migration uFluentExample728.uFluent.Migrate.Migrations.DocumentTypeSetIcons ----------
+2016-01-22 14:11:17,266 [23] INFO  uFluent.Migrate.MigrationProcessor - Transaction completed
+2016-01-22 14:11:17,266 [23] INFO  uFluent.Migrate.MigrationProcessor - Shared connection closed.
+2016-01-22 14:11:17,267 [23] INFO  uFluent.Migrate.MigrationProcessor - ========== Executing migration uFluentExample728.ufluent.Migrate.Migrations.UsefulLinksPicker.UsefulLinksPickerRemoveCategoryArticleFromAllowedItems ==========
+2016-01-22 14:11:17,273 [23] INFO  uFluent.Migrate.MigrationProcessor - ---------- Executed migration uFluentExample728.ufluent.Migrate.Migrations.UsefulLinksPicker.UsefulLinksPickerRemoveCategoryArticleFromAllowedItems ----------
+2016-01-22 14:11:17,273 [23] INFO  uFluent.Migrate.MigrationProcessor - Transaction completed
+2016-01-22 14:11:17,273 [23] INFO  uFluent.Migrate.MigrationProcessor - Shared connection closed.
+2016-01-22 14:11:17,274 [23] INFO  uFluent.Migrate.MigrationProcessor - ========== Executing migration uFluentExample728.uFluent.Migrate.Migrations.HomepagePicker.HomepagePickerCreateDataType ==========
+2016-01-22 14:11:17,280 [23] INFO  uFluent.Migrate.MigrationProcessor - ---------- Executed migration uFluentExample728.uFluent.Migrate.Migrations.HomepagePicker.HomepagePickerCreateDataType ----------
+2016-01-22 14:11:17,280 [23] INFO  uFluent.Migrate.MigrationProcessor - Transaction completed
+2016-01-22 14:11:17,280 [23] INFO  uFluent.Migrate.MigrationProcessor - Shared connection closed.
+2016-01-22 14:11:17,281 [23] INFO  uFluent.Migrate.MigrationProcessor - ========== Executing migration uFluentExample728.ufluent.Migrate.Migrations.UsefulLinksPicker.UsefulLinksPickerChangeDbTypeToNvarchar ==========
+2016-01-22 14:11:17,286 [23] INFO  uFluent.Migrate.MigrationProcessor - ---------- Executed migration uFluentExample728.ufluent.Migrate.Migrations.UsefulLinksPicker.UsefulLinksPickerChangeDbTypeToNvarchar ----------
+2016-01-22 14:11:17,286 [23] INFO  uFluent.Migrate.MigrationProcessor - Transaction completed
+2016-01-22 14:11:17,286 [23] INFO  uFluent.Migrate.MigrationProcessor - Shared connection closed.
+2016-01-22 14:11:17,287 [23] INFO  uFluent.Migrate.MigrationProcessor - ========== Executing migration uFluentExample728.ufluent.Migrate.Migrations.UsefulLinksPicker.UsefulLinksPickerChangeDbTypeToNtext ==========
+2016-01-22 14:11:17,290 [23] INFO  uFluent.Migrate.MigrationProcessor - ---------- Executed migration uFluentExample728.ufluent.Migrate.Migrations.UsefulLinksPicker.UsefulLinksPickerChangeDbTypeToNtext ----------
+2016-01-22 14:11:17,291 [23] INFO  uFluent.Migrate.MigrationProcessor - Transaction completed
+2016-01-22 14:11:17,291 [23] INFO  uFluent.Migrate.MigrationProcessor - Shared connection closed.
+2016-01-22 14:11:17,292 [23] INFO  uFluent.Migrate.MigrationProcessor - ========== Executing migration uFluentExample728.uFluent.Migrate.Migrations.ArticleTagsGroupCreateDataType ==========
+2016-01-22 14:11:17,299 [23] INFO  uFluent.Migrate.MigrationProcessor - ---------- Executed migration uFluentExample728.uFluent.Migrate.Migrations.ArticleTagsGroupCreateDataType ----------
+2016-01-22 14:11:17,299 [23] INFO  uFluent.Migrate.MigrationProcessor - Transaction completed
+2016-01-22 14:11:17,299 [23] INFO  uFluent.Migrate.MigrationProcessor - Shared connection closed.
+2016-01-22 14:11:17,305 [23] INFO  Umbraco.Core.CoreBootManager - [P12092/T1/D6] Umbraco application startup complete (took 2423ms)
+2016-01-22 14:11:17,481 [23] INFO  umbraco.content - [P12092/T1/D6] Load Xml from file...
+2016-01-22 14:11:17,482 [23] INFO  umbraco.content - [P12092/T1/D6] Loaded Xml from file.
+2016-01-22 14:11:17,523 [23] INFO  Umbraco.Core.ApplicationContext - [P12092/T1/D6] ApplicationUrl: http://ufluentexample728:80/umbraco (UmbracoModule request)
+2016-01-22 14:11:18,202 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-22 14:11:18,208 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 6ms)
+2016-01-22 14:11:18,721 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-22 14:11:18,723 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 2ms)
+2016-01-22 14:11:18,745 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of umbraco.interfaces.ITree
+2016-01-22 14:11:18,749 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 4ms)
+2016-01-22 14:11:18,759 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of Umbraco.Web.Trees.TreeController
+2016-01-22 14:11:18,760 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2016-01-22 14:11:18,761 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of umbraco.interfaces.ITree
+2016-01-22 14:11:18,765 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 3ms)
+2016-01-22 14:11:18,779 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Starting resolution types of umbraco.interfaces.IApplication
+2016-01-22 14:11:18,785 [23] INFO  Umbraco.Core.PluginManager - [P12092/T1/D6] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2016-01-22 14:11:58,749 [23] INFO  Umbraco.Core.Publishing.PublishingStrategy - [P12092/T1/D6] Content 'Home' with Id '0' has been published.
+2016-01-22 14:12:02,864 [23] INFO  umbraco.content - [P12092/T1/D6] Save Xml to file...
+2016-01-22 14:12:02,871 [23] INFO  umbraco.content - [P12092/T1/D6] Saved Xml to file.
+2016-01-22 14:12:07,305 [23] ERROR Umbraco.Core.UmbracoApplicationBase - [P12092/T1/D6] An unhandled exception occurred
+System.Configuration.ConfigurationErrorsException: Section or group name 'system.web.webPages.razor' is already defined. This can not be defined multiple times. (C:\code\uFluent\uFluentExample728\views\web.config line 9)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.Configuration.RuntimeConfig.GetSectionObject(String sectionName)
+   at System.Web.Configuration.RuntimeConfig.GetSection(String sectionName, Type type, ResultsIndex index)
+   at System.Web.Configuration.RuntimeConfig.get_Compilation()
+   at System.Web.Compilation.BuildManager.IsBatchEnabledForDirectory(VirtualPath virtualDir)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Core.Profiling.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at Umbraco.Web.Mvc.RenderMvcController.EnsurePhsyicalViewExists(String template)
+   at Umbraco.Web.Mvc.RenderMvcController.CurrentTemplate[T](T model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-01-22 14:12:17,699 [23] INFO  umbraco.BusinessLogic.Log - [P12092/T1/D6] Log scrubbed.  Removed all items older than 2015-11-23 14:12:17
+2016-01-22 14:13:10,668 [23] ERROR Umbraco.Core.UmbracoApplicationBase - [P12092/T1/D6] An unhandled exception occurred
+System.Configuration.ConfigurationErrorsException: Sections must only appear once per config file.  See the help topic <location> for exceptions. (C:\code\uFluent\uFluentExample728\views\web.config line 22)
+   at System.Configuration.ConfigurationSchemaErrors.ThrowIfErrors(Boolean ignoreLocal)
+   at System.Configuration.BaseConfigurationRecord.ThrowIfParseErrors(ConfigurationSchemaErrors schemaErrors)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.Configuration.RuntimeConfig.GetSectionObject(String sectionName)
+   at System.Web.Configuration.RuntimeConfig.GetSection(String sectionName, Type type, ResultsIndex index)
+   at System.Web.Configuration.RuntimeConfig.get_Compilation()
+   at System.Web.Compilation.BuildManager.IsBatchEnabledForDirectory(VirtualPath virtualDir)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Core.Profiling.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at Umbraco.Web.Mvc.RenderMvcController.EnsurePhsyicalViewExists(String template)
+   at Umbraco.Web.Mvc.RenderMvcController.CurrentTemplate[T](T model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-01-22 14:13:27,735 [23] ERROR Umbraco.Core.UmbracoApplicationBase - [P12092/T1/D6] An unhandled exception occurred
+System.Configuration.ConfigurationErrorsException: Could not load file or assembly 'System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (C:\code\uFluent\uFluentExample728\views\web.config line 37) ---> System.IO.FileLoadException: Could not load file or assembly 'System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at System.Web.Configuration.CompilationSection.LoadAssemblyHelper(String assemblyName, Boolean starDirective)
+   --- End of inner exception stack trace ---
+   at System.Web.Configuration.CompilationSection.LoadAssemblyHelper(String assemblyName, Boolean starDirective)
+   at System.Web.Configuration.CompilationSection.LoadAssembly(AssemblyInfo ai)
+   at System.Web.Compilation.BuildManager.GetReferencedAssemblies(CompilationSection compConfig)
+   at System.Web.Compilation.BuildProvidersCompiler..ctor(VirtualPath configPath, Boolean supportLocalization, String outputAssemblyName)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Core.Profiling.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at Umbraco.Web.Mvc.RenderMvcController.EnsurePhsyicalViewExists(String template)
+   at Umbraco.Web.Mvc.RenderMvcController.CurrentTemplate[T](T model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-01-22 14:13:43,763 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [ScheduledPublishing] Terminating
+2016-01-22 14:13:43,763 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [ScheduledPublishing] Waiting for tasks to complete
+2016-01-22 14:13:43,763 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [KeepAlive] Terminating
+2016-01-22 14:13:43,763 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [KeepAlive] Waiting for tasks to complete
+2016-01-22 14:13:43,763 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [ScheduledTasks] Terminating
+2016-01-22 14:13:43,763 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [ScheduledTasks] Waiting for tasks to complete
+2016-01-22 14:13:43,766 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [ScheduledPublishing] Tasks completed, terminated
+2016-01-22 14:13:43,766 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [ScheduledTasks] Tasks completed, terminated
+2016-01-22 14:13:43,766 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [KeepAlive] Tasks completed, terminated
+2016-01-22 14:13:43,767 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [LogScrubber] Terminating
+2016-01-22 14:13:43,767 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [LogScrubber] Waiting for tasks to complete
+2016-01-22 14:13:43,767 [23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T1/D6] [LogScrubber] Tasks completed, terminated
+2016-01-22 14:13:45,176 [40] INFO  Umbraco.Core.CoreBootManager - [P12092/T41/D7] Umbraco 7.2.8 application starting on MA-VPC-024
+2016-01-22 14:13:45,203 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Determining hash of code files on disk
+2016-01-22 14:13:45,209 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Hash determined (took 5ms)
+2016-01-22 14:13:45,215 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-22 14:13:45,228 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 12ms)
+2016-01-22 14:13:45,289 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-22 14:13:45,290 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-22 14:13:45,290 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-22 14:13:45,291 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2016-01-22 14:13:45,306 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-22 14:13:45,307 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-01-22 14:13:45,307 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-22 14:13:45,309 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 2ms)
+2016-01-22 14:13:45,332 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-22 14:13:45,333 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-22 14:13:45,333 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-22 14:13:45,333 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-22 14:13:45,907 [40] INFO  Umbraco.Core.DatabaseContext - [P12092/T41/D7] CanConnect = True
+2016-01-22 14:13:45,916 [40] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P12092/T41/D7] Initializing Umbraco internal event handlers for cache refreshing
+2016-01-22 14:13:45,940 [40] INFO  Umbraco.Web.Search.ExamineEvents - [P12092/T41/D7] Initializing Examine and binding to business logic events
+2016-01-22 14:13:45,984 [40] INFO  Umbraco.Web.Search.ExamineEvents - [P12092/T41/D7] Adding examine event handlers for index providers: 3
+2016-01-22 14:13:46,366 [40] INFO  Umbraco.Core.CoreBootManager - [P12092/T41/D7] Umbraco application startup complete (took 1184ms)
+2016-01-22 14:13:46,404 [40] INFO  Umbraco.Core.ApplicationContext - [P12092/T41/D7] ApplicationUrl: http://ufluentexample728:80/umbraco (UmbracoModule request)
+2016-01-22 14:13:46,444 [40] INFO  umbraco.content - [P12092/T41/D7] Load Xml from file...
+2016-01-22 14:13:46,447 [40] ERROR umbraco.content - [P12092/T41/D7] Failed to load Xml from file.
+System.Xml.XmlException: There is no Unicode byte order mark. Cannot switch to Unicode.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.CheckEncoding(String newEncodingName)
+   at System.Xml.XmlTextReaderImpl.ParseXmlDeclaration(Boolean isTextDecl)
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(Stream inStream)
+   at umbraco.content.LoadXmlFromFile()
+2016-01-22 14:13:46,450 [40] INFO  umbraco.content - [P12092/T41/D7] Loading content from database...
+2016-01-22 14:13:46,860 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-22 14:13:46,861 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2016-01-22 14:13:46,964 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-22 14:13:46,965 [40] INFO  Umbraco.Core.PluginManager - [P12092/T41/D7] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2016-01-22 14:13:47,128 [40] ERROR Umbraco.Core.UmbracoApplicationBase - [P12092/T41/D7] An unhandled exception occurred
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for system.web.webPages.razor/host: Could not load file or assembly 'System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (C:\code\uFluent\uFluentExample728\views\web.config line 6) ---> System.IO.FileLoadException: Could not load file or assembly 'System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.RuntimeConfigurationRecord.RuntimeConfigurationFactory.Init(RuntimeConfigurationRecord configRecord, FactoryRecord factoryRecord)
+   at System.Configuration.RuntimeConfigurationRecord.RuntimeConfigurationFactory.InitWithRestrictedPermissions(RuntimeConfigurationRecord configRecord, FactoryRecord factoryRecord)
+   at System.Configuration.RuntimeConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.Configuration.WebConfigurationManager.GetSection(String sectionName, String path)
+   at System.Web.WebPages.Razor.WebRazorHostFactory.GetRazorSection(String virtualPath)
+   at System.Web.WebPages.Razor.WebRazorHostFactory.CreateHostFromConfig(String virtualPath, String physicalPath)
+   at System.Web.WebPages.Razor.RazorBuildProvider.GetHostFromConfig()
+   at System.Web.WebPages.Razor.RazorBuildProvider.CreateHost()
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Core.Profiling.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at Umbraco.Web.Mvc.RenderMvcController.EnsurePhsyicalViewExists(String template)
+   at Umbraco.Web.Mvc.RenderMvcController.CurrentTemplate[T](T model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-01-22 14:13:50,841 [40] INFO  umbraco.content - [P12092/T41/D7] Save Xml to file...
+2016-01-22 14:13:50,844 [40] INFO  umbraco.content - [P12092/T41/D7] Saved Xml to file.
+2016-01-22 14:14:15,274 [23] INFO  Umbraco.Core.UmbracoApplicationBase - [P12092/T1/D6] Application shutdown. Reason: ConfigurationChange
+2016-01-22 14:15:10,596 [40] INFO  umbraco.BusinessLogic.Log - [P12092/T41/D7] Log scrubbed.  Removed all items older than 2015-11-23 14:15:10
+2016-01-22 14:23:14,008 [40] ERROR Umbraco.Core.UmbracoApplicationBase - [P12092/T41/D7] An unhandled exception occurred
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for system.web.webPages.razor/host: Could not load file or assembly 'System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (C:\code\uFluent\uFluentExample728\views\web.config line 6) ---> System.IO.FileLoadException: Could not load file or assembly 'System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.RuntimeConfigurationRecord.RuntimeConfigurationFactory.Init(RuntimeConfigurationRecord configRecord, FactoryRecord factoryRecord)
+   at System.Configuration.RuntimeConfigurationRecord.RuntimeConfigurationFactory.InitWithRestrictedPermissions(RuntimeConfigurationRecord configRecord, FactoryRecord factoryRecord)
+   at System.Configuration.RuntimeConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.Configuration.WebConfigurationManager.GetSection(String sectionName, String path)
+   at System.Web.WebPages.Razor.WebRazorHostFactory.GetRazorSection(String virtualPath)
+   at System.Web.WebPages.Razor.WebRazorHostFactory.CreateHostFromConfig(String virtualPath, String physicalPath)
+   at System.Web.WebPages.Razor.RazorBuildProvider.GetHostFromConfig()
+   at System.Web.WebPages.Razor.RazorBuildProvider.CreateHost()
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Core.Profiling.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at Umbraco.Web.Mvc.RenderMvcController.EnsurePhsyicalViewExists(String template)
+   at Umbraco.Web.Mvc.RenderMvcController.CurrentTemplate[T](T model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-01-22 14:23:15,359 [40] ERROR Umbraco.Core.UmbracoApplicationBase - [P12092/T41/D7] An unhandled exception occurred
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for system.web.webPages.razor/host: Could not load file or assembly 'System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (C:\code\uFluent\uFluentExample728\views\web.config line 6) ---> System.IO.FileLoadException: Could not load file or assembly 'System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.RuntimeConfigurationRecord.RuntimeConfigurationFactory.Init(RuntimeConfigurationRecord configRecord, FactoryRecord factoryRecord)
+   at System.Configuration.RuntimeConfigurationRecord.RuntimeConfigurationFactory.InitWithRestrictedPermissions(RuntimeConfigurationRecord configRecord, FactoryRecord factoryRecord)
+   at System.Configuration.RuntimeConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.Configuration.WebConfigurationManager.GetSection(String sectionName, String path)
+   at System.Web.WebPages.Razor.WebRazorHostFactory.GetRazorSection(String virtualPath)
+   at System.Web.WebPages.Razor.WebRazorHostFactory.CreateHostFromConfig(String virtualPath, String physicalPath)
+   at System.Web.WebPages.Razor.RazorBuildProvider.GetHostFromConfig()
+   at System.Web.WebPages.Razor.RazorBuildProvider.CreateHost()
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Core.Profiling.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at Umbraco.Web.Mvc.RenderMvcController.EnsurePhsyicalViewExists(String template)
+   at Umbraco.Web.Mvc.RenderMvcController.CurrentTemplate[T](T model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-01-22 14:23:20,550 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [ScheduledTasks] Terminating
+2016-01-22 14:23:20,550 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [ScheduledTasks] Waiting for tasks to complete
+2016-01-22 14:23:20,553 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [ScheduledTasks] Tasks completed, terminated
+2016-01-22 14:23:22,138 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [LogScrubber] Terminating
+2016-01-22 14:23:22,138 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [LogScrubber] Waiting for tasks to complete
+2016-01-22 14:23:22,138 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [ScheduledPublishing] Terminating
+2016-01-22 14:23:22,138 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [ScheduledPublishing] Waiting for tasks to complete
+2016-01-22 14:23:22,138 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [ScheduledPublishing] Tasks completed, terminated
+2016-01-22 14:23:22,138 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [LogScrubber] Tasks completed, terminated
+2016-01-22 14:23:22,140 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [KeepAlive] Terminating
+2016-01-22 14:23:22,140 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [KeepAlive] Waiting for tasks to complete
+2016-01-22 14:23:22,140 [40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P12092/T41/D7] [KeepAlive] Tasks completed, terminated
+2016-01-22 14:23:45,410 [10] INFO  Umbraco.Core.CoreBootManager - [P26088/T1/D2] Umbraco 7.2.8 application starting on MA-VPC-024
+2016-01-22 14:23:45,446 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Determining hash of code files on disk
+2016-01-22 14:23:45,454 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Hash determined (took 6ms)
+2016-01-22 14:23:45,460 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-22 14:23:45,472 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 11ms)
+2016-01-22 14:23:45,532 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-22 14:23:45,533 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-22 14:23:45,533 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-22 14:23:45,535 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 1ms)
+2016-01-22 14:23:45,548 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-22 14:23:45,549 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-01-22 14:23:45,549 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-22 14:23:45,551 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 1ms)
+2016-01-22 14:23:45,580 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-22 14:23:45,580 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-22 14:23:45,580 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-22 14:23:45,581 [10] INFO  Umbraco.Core.PluginManager - [P26088/T1/D2] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-22 14:23:46,246 [10] INFO  Umbraco.Core.DatabaseContext - [P26088/T1/D2] CanConnect = True
+2016-01-22 14:23:46,256 [10] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P26088/T1/D2] Initializing Umbraco internal event handlers for cache refreshing
+2016-01-22 14:23:46,278 [10] INFO  Umbraco.Web.Search.ExamineEvents - [P26088/T1/D2] Initializing Examine and binding to business logic events
+2016-01-22 14:23:46,329 [10] INFO  Umbraco.Web.Search.ExamineEvents - [P26088/T1/D2] Adding examine event handlers for index providers: 3
+2016-01-22 14:23:46,700 [10] INFO  Umbraco.Core.CoreBootManager - [P26088/T1/D2] Umbraco application startup complete (took 1283ms)
+2016-01-22 14:23:46,747 [10] INFO  Umbraco.Core.ApplicationContext - [P26088/T1/D2] ApplicationUrl: http://ufluentexample728:80/umbraco (UmbracoModule request)
+2016-01-22 14:24:40,827 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [ScheduledTasks] Terminating
+2016-01-22 14:24:40,828 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [ScheduledTasks] Waiting for tasks to complete
+2016-01-22 14:24:40,831 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [ScheduledTasks] Tasks completed, terminated
+2016-01-22 14:24:42,404 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [ScheduledPublishing] Terminating
+2016-01-22 14:24:42,404 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [ScheduledPublishing] Waiting for tasks to complete
+2016-01-22 14:24:42,404 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [KeepAlive] Terminating
+2016-01-22 14:24:42,404 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [KeepAlive] Waiting for tasks to complete
+2016-01-22 14:24:42,404 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [ScheduledPublishing] Tasks completed, terminated
+2016-01-22 14:24:42,404 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [KeepAlive] Tasks completed, terminated
+2016-01-22 14:24:42,407 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [LogScrubber] Terminating
+2016-01-22 14:24:42,407 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [LogScrubber] Waiting for tasks to complete
+2016-01-22 14:24:42,407 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D2] [LogScrubber] Tasks completed, terminated
+2016-01-22 14:24:47,651 [22] INFO  Umbraco.Core.CoreBootManager - [P26088/T1/D3] Umbraco 7.2.8 application starting on MA-VPC-024
+2016-01-22 14:24:47,679 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Determining hash of code files on disk
+2016-01-22 14:24:47,687 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Hash determined (took 6ms)
+2016-01-22 14:24:47,695 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-22 14:24:47,861 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 164ms)
+2016-01-22 14:24:47,921 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-22 14:24:47,924 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-01-22 14:24:47,925 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-22 14:24:47,928 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 3ms)
+2016-01-22 14:24:47,939 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-22 14:24:47,941 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 2ms)
+2016-01-22 14:24:47,942 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-22 14:24:47,944 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 2ms)
+2016-01-22 14:24:47,968 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-22 14:24:47,970 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2016-01-22 14:24:47,971 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-22 14:24:47,973 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2016-01-22 14:24:48,546 [22] INFO  Umbraco.Core.DatabaseContext - [P26088/T1/D3] CanConnect = True
+2016-01-22 14:24:48,800 [22] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P26088/T1/D3] Initializing Umbraco internal event handlers for cache refreshing
+2016-01-22 14:24:48,818 [22] INFO  Umbraco.Web.Search.ExamineEvents - [P26088/T1/D3] Initializing Examine and binding to business logic events
+2016-01-22 14:24:48,855 [22] INFO  Umbraco.Web.Search.ExamineEvents - [P26088/T1/D3] Adding examine event handlers for index providers: 3
+2016-01-22 14:24:48,862 [22] INFO  Umbraco.Core.CoreBootManager - [P26088/T1/D3] Umbraco application startup complete (took 1205ms)
+2016-01-22 14:24:48,898 [22] INFO  Umbraco.Core.ApplicationContext - [P26088/T1/D3] ApplicationUrl: http://ufluentexample728:80/umbraco (UmbracoModule request)
+2016-01-22 14:24:48,940 [22] INFO  umbraco.content - [P26088/T1/D3] Load Xml from file...
+2016-01-22 14:24:48,942 [22] INFO  umbraco.content - [P26088/T1/D3] Loaded Xml from file.
+2016-01-22 14:24:49,009 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-22 14:24:49,014 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 4ms)
+2016-01-22 14:24:49,505 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-22 14:24:49,511 [22] INFO  Umbraco.Core.PluginManager - [P26088/T1/D3] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 6ms)
+2016-01-22 14:24:49,730 [22] ERROR Umbraco.Core.UmbracoApplicationBase - [P26088/T1/D3] An unhandled exception occurred
+System.Configuration.ConfigurationErrorsException: An error occurred creating the configuration section handler for system.web.webPages.razor/host: Could not load file or assembly 'System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (C:\code\uFluent\uFluentExample728\views\web.config line 6) ---> System.IO.FileLoadException: Could not load file or assembly 'System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+   at System.Configuration.TypeUtil.GetTypeWithReflectionPermission(IInternalConfigHost host, String typeString, Boolean throwOnError)
+   at System.Configuration.RuntimeConfigurationRecord.RuntimeConfigurationFactory.Init(RuntimeConfigurationRecord configRecord, FactoryRecord factoryRecord)
+   at System.Configuration.RuntimeConfigurationRecord.RuntimeConfigurationFactory.InitWithRestrictedPermissions(RuntimeConfigurationRecord configRecord, FactoryRecord factoryRecord)
+   at System.Configuration.RuntimeConfigurationRecord.CreateSectionFactory(FactoryRecord factoryRecord)
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   --- End of inner exception stack trace ---
+   at System.Configuration.BaseConfigurationRecord.FindAndEnsureFactoryRecord(String configKey, Boolean& isRootDeclaredHere)
+   at System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   at System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   at System.Web.Configuration.WebConfigurationManager.GetSection(String sectionName, String path)
+   at System.Web.WebPages.Razor.WebRazorHostFactory.GetRazorSection(String virtualPath)
+   at System.Web.WebPages.Razor.WebRazorHostFactory.CreateHostFromConfig(String virtualPath, String physicalPath)
+   at System.Web.WebPages.Razor.RazorBuildProvider.GetHostFromConfig()
+   at System.Web.WebPages.Razor.RazorBuildProvider.CreateHost()
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.<>c__DisplayClass4.<GetPathFromGeneralName>b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at Microsoft.Web.Mvc.ViewEngineFixWorker`1.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Web.Mvc.RenderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at Umbraco.Core.Profiling.ProfilingViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at Umbraco.Web.Mvc.RenderMvcController.EnsurePhsyicalViewExists(String template)
+   at Umbraco.Web.Mvc.RenderMvcController.CurrentTemplate[T](T model)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__18(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-01-22 14:25:12,409 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [P26088/T1/D2] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2016-01-22 14:25:50,652 [22] INFO  umbraco.BusinessLogic.Log - [P26088/T1/D3] Log scrubbed.  Removed all items older than 2015-11-23 14:25:50
+2016-01-22 14:25:54,570 [28] INFO  Umbraco.Core.CoreBootManager - [P26088/T1/D4] Umbraco 7.2.8 application starting on MA-VPC-024
+2016-01-22 14:25:54,602 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Determining hash of code files on disk
+2016-01-22 14:25:54,609 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Hash determined (took 5ms)
+2016-01-22 14:25:54,615 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-22 14:25:54,628 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 12ms)
+2016-01-22 14:25:54,689 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-22 14:25:54,690 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+2016-01-22 14:25:54,690 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-22 14:25:54,690 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 0ms)
+2016-01-22 14:25:54,703 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-22 14:25:54,704 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 0ms)
+2016-01-22 14:25:54,705 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-22 14:25:54,707 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 2ms)
+2016-01-22 14:25:54,734 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-22 14:25:54,735 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 0ms)
+2016-01-22 14:25:54,735 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-22 14:25:54,735 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 0ms)
+2016-01-22 14:25:54,957 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [ScheduledPublishing] Terminating
+2016-01-22 14:25:54,957 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [ScheduledPublishing] Waiting for tasks to complete
+2016-01-22 14:25:54,957 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [KeepAlive] Terminating
+2016-01-22 14:25:54,957 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [KeepAlive] Waiting for tasks to complete
+2016-01-22 14:25:54,957 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [ScheduledTasks] Terminating
+2016-01-22 14:25:54,957 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [ScheduledTasks] Waiting for tasks to complete
+2016-01-22 14:25:54,957 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [LogScrubber] Terminating
+2016-01-22 14:25:54,957 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [LogScrubber] Waiting for tasks to complete
+2016-01-22 14:25:54,958 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [ScheduledPublishing] Tasks completed, terminated
+2016-01-22 14:25:54,958 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [ScheduledTasks] Tasks completed, terminated
+2016-01-22 14:25:54,958 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [KeepAlive] Tasks completed, terminated
+2016-01-22 14:25:54,958 [22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D3] [LogScrubber] Tasks completed, terminated
+2016-01-22 14:25:55,361 [28] INFO  Umbraco.Core.DatabaseContext - [P26088/T1/D4] CanConnect = True
+2016-01-22 14:25:55,767 [28] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P26088/T1/D4] Initializing Umbraco internal event handlers for cache refreshing
+2016-01-22 14:25:55,787 [28] INFO  Umbraco.Web.Search.ExamineEvents - [P26088/T1/D4] Initializing Examine and binding to business logic events
+2016-01-22 14:25:55,827 [28] INFO  Umbraco.Web.Search.ExamineEvents - [P26088/T1/D4] Adding examine event handlers for index providers: 3
+2016-01-22 14:25:55,833 [28] INFO  Umbraco.Core.CoreBootManager - [P26088/T1/D4] Umbraco application startup complete (took 1257ms)
+2016-01-22 14:25:55,870 [28] INFO  Umbraco.Core.ApplicationContext - [P26088/T1/D4] ApplicationUrl: http://ufluentexample728:80/umbraco (UmbracoModule request)
+2016-01-22 14:25:57,264 [28] INFO  umbraco.content - [P26088/T1/D4] Load Xml from file...
+2016-01-22 14:25:57,264 [28] INFO  umbraco.content - [P26088/T1/D4] Loaded Xml from file.
+2016-01-22 14:25:57,319 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-22 14:25:57,320 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 0ms)
+2016-01-22 14:25:57,671 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2016-01-22 14:25:57,672 [28] INFO  Umbraco.Core.PluginManager - [P26088/T1/D4] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 0ms)
+2016-01-22 14:26:24,966 [22] INFO  Umbraco.Core.UmbracoApplicationBase - [P26088/T1/D3] Application shutdown. Reason: ConfigurationChange
+2016-01-22 14:26:28,872 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [KeepAlive] Terminating
+2016-01-22 14:26:28,873 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [KeepAlive] Waiting for tasks to complete
+2016-01-22 14:26:28,873 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [ScheduledPublishing] Terminating
+2016-01-22 14:26:28,873 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [ScheduledPublishing] Waiting for tasks to complete
+2016-01-22 14:26:28,875 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [KeepAlive] Tasks completed, terminated
+2016-01-22 14:26:28,876 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [ScheduledPublishing] Tasks completed, terminated
+2016-01-22 14:26:30,446 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [ScheduledTasks] Terminating
+2016-01-22 14:26:30,446 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [ScheduledTasks] Waiting for tasks to complete
+2016-01-22 14:26:30,447 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [ScheduledTasks] Tasks completed, terminated
+2016-01-22 14:26:30,448 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [LogScrubber] Terminating
+2016-01-22 14:26:30,448 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [LogScrubber] Waiting for tasks to complete
+2016-01-22 14:26:30,448 [28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P26088/T1/D4] [LogScrubber] Tasks completed, terminated
+2016-01-22 14:27:00,269 [37] INFO  Umbraco.Core.CoreBootManager - [P26088/T1/D5] Umbraco 7.2.8 application starting on MA-VPC-024
+2016-01-22 14:27:00,297 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Determining hash of code files on disk
+2016-01-22 14:27:00,304 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Hash determined (took 5ms)
+2016-01-22 14:27:00,314 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2016-01-22 14:27:00,459 [28] INFO  Umbraco.Core.UmbracoApplicationBase - [P26088/T1/D4] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2016-01-22 14:27:00,459 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 38 (took 144ms)
+2016-01-22 14:27:00,512 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2016-01-22 14:27:00,516 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2016-01-22 14:27:00,516 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2016-01-22 14:27:00,519 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 2ms)
+2016-01-22 14:27:00,529 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2016-01-22 14:27:00,532 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 2ms)
+2016-01-22 14:27:00,532 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2016-01-22 14:27:00,534 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 2ms)
+2016-01-22 14:27:00,558 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2016-01-22 14:27:00,561 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2016-01-22 14:27:00,561 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2016-01-22 14:27:00,564 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2016-01-22 14:27:01,153 [37] INFO  Umbraco.Core.DatabaseContext - [P26088/T1/D5] CanConnect = True
+2016-01-22 14:27:01,430 [37] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - [P26088/T1/D5] Initializing Umbraco internal event handlers for cache refreshing
+2016-01-22 14:27:01,449 [37] INFO  Umbraco.Web.Search.ExamineEvents - [P26088/T1/D5] Initializing Examine and binding to business logic events
+2016-01-22 14:27:01,486 [37] INFO  Umbraco.Web.Search.ExamineEvents - [P26088/T1/D5] Adding examine event handlers for index providers: 3
+2016-01-22 14:27:01,493 [37] INFO  Umbraco.Core.CoreBootManager - [P26088/T1/D5] Umbraco application startup complete (took 1216ms)
+2016-01-22 14:27:01,536 [37] INFO  Umbraco.Core.ApplicationContext - [P26088/T1/D5] ApplicationUrl: http://ufluentexample728:80/umbraco (UmbracoModule request)
+2016-01-22 14:28:02,023 [37] INFO  umbraco.BusinessLogic.Log - [P26088/T1/D5] Log scrubbed.  Removed all items older than 2015-11-23 14:28:02
+2016-01-22 14:28:02,174 [37] INFO  umbraco.content - [P26088/T1/D5] Load Xml from file...
+2016-01-22 14:28:02,174 [37] INFO  umbraco.content - [P26088/T1/D5] Loaded Xml from file.
+2016-01-22 14:28:02,185 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2016-01-22 14:28:02,189 [37] INFO  Umbraco.Core.PluginManager - [P26088/T1/D5] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 4ms)
