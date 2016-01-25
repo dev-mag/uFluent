@@ -169,3 +169,4 @@ nuget/*.nupkg
 
 /umbraco621Example/App_Data/
 uFluentExample/App_Data/TEMP/ExamineIndexes/InternalMember/Index/segments_1
+uFluentExample728/App_Data/Logs/UmbracoTraceLog.txt
