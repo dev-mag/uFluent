@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using log4net;
 using uFluent.Migrate.Persistence;
 using uFluent.Configuration;
@@ -102,16 +103,23 @@ namespace uFluent.Migrate
             var assemblies = AppDomain.CurrentDomain.GetAssemblies();
             foreach (var assembly in assemblies)
             {
-                var types = assembly.GetTypes();
-                foreach (var type in types)
+                try
                 {
-                    if (IsAMigrationList(type))
+                    var types = assembly.GetTypes();
+                    foreach(var type in types)
                     {
-                        if (migrationList != null)
-                            throw new InvalidOperationException(string.Format("Multiple implementations of IMigrationLists found, created {0} also found {1}", migrationList.GetType(), type));
+                        if(IsAMigrationList(type))
+                        {
+                            if(migrationList != null)
+                                throw new InvalidOperationException(string.Format("Multiple implementations of IMigrationLists found, created {0} also found {1}", migrationList.GetType(), type));
 
-                        migrationList = CreateInstance<IMigrationList>(type);
+                            migrationList = CreateInstance<IMigrationList>(type);
+                        }
                     }
+                }
+                catch(ReflectionTypeLoadException exception)
+                {
+                    Log.Info("Could not load types from assembly", exception);
                 }
             }
 
