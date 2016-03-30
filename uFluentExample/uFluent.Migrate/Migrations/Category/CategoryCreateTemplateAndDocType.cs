@@ -20,7 +20,7 @@ namespace uFluentExample.uFluent.Migrate.Migrations
             var categoryDocType = DocumentType.Create("Category", "Category")
                 .SetParent(homepageDocType)
                 .SetDefaultTemplate(categoryTemplate)
-                .AddProperty("iconImageUrl", "Icon Image Url", DataTypes.MediaPicker, "Content", true)
+                .AddProperty("iconImageUrl", "Icon Image Url", DataTypes.MultipleMediaPicker, "Content", true)
                 .AddProperty("iconImageAltText", "Icon Image Alt Text", DataTypes.TextString, "Content", true)
                 .Save();
 

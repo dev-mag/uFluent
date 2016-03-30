@@ -13,7 +13,7 @@ namespace uFluent
     /// </summary>
     public class DocumentType
     {
-        private static readonly ILog Log = LogManager.GetLogger(typeof (DocumentType));
+        private static readonly ILog Log = LogManager.GetLogger(typeof(DocumentType));
 
         internal IContentType UmbracoContentType;
 
@@ -108,6 +108,10 @@ namespace uFluent
         public DocumentType AddProperty(string alias, string name, string dataTypeName, string tabName, bool mandatory, string description = "", string validationRegex = "")
         {
             var dataTypeDefinition = GetDataTypeDefinition(dataTypeName);
+            if (dataTypeDefinition == null)
+            {
+                throw new FluentException(string.Format("Could not find data type definition with alias `{0}`", dataTypeName));
+            }
 
             var propertyType = new PropertyType(dataTypeDefinition)
             {
@@ -118,9 +122,11 @@ namespace uFluent
                 ValidationRegExp = validationRegex
             };
 
-            if (String.IsNullOrEmpty(tabName)) {
+            if (String.IsNullOrEmpty(tabName))
+            {
                 UmbracoContentType.AddPropertyType(propertyType);
-            } else {
+            }
+            else {
                 UmbracoContentType.AddPropertyType(propertyType, tabName);
             }
 
@@ -268,7 +274,7 @@ namespace uFluent
 
         private IDataTypeDefinition GetDataTypeDefinition(string dataTypeName)
         {
-            return DataTypeService.GetAllDataTypeDefinitions().Single(x => x.Name.Equals(dataTypeName, StringComparison.InvariantCultureIgnoreCase));
+            return DataTypeService.GetAllDataTypeDefinitions().SingleOrDefault(x => x.Name.Equals(dataTypeName, StringComparison.InvariantCultureIgnoreCase));
         }
 
         /// <summary>
@@ -321,6 +327,23 @@ namespace uFluent
 
             UmbracoContentType.AddContentType(parent.UmbracoContentType);
             UmbracoContentType.ParentId = parent.UmbracoContentType.Id;
+
+            return this;
+        }
+
+        /// <summary>
+        /// Set the composition document type. Should be done at the point of DocumentType creation only.
+        /// </summary>
+        /// <param name="composition"></param>
+        /// <returns></returns>
+        public DocumentType SetComposition(DocumentType composition)
+        {
+            if (composition == null)
+            {
+                throw new ArgumentNullException("composition");
+            }
+
+            UmbracoContentType.AddContentType(composition.UmbracoContentType);
 
             return this;
         }

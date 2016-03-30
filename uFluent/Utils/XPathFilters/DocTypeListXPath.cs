@@ -56,7 +56,7 @@ namespace uFluent.Utils.XPathFilters
             {
                 throw;
             }
-            catch(Exception exception)
+            catch (Exception exception)
             {
                 throw new FluentException("Error adding document type to XPath filter.", exception);
             }
@@ -66,35 +66,35 @@ namespace uFluent.Utils.XPathFilters
         {
             try
             {
-                foreach(var docType in docTypes)
+                foreach (var docType in docTypes)
                 {
-                    if(!string.IsNullOrEmpty(docType))
+                    if (!string.IsNullOrEmpty(docType))
                     {
-                        if(!IsValid(docType))
+                        if (!IsValid(docType))
                         {
-                            throw new FluentException("Document type alias trying to remove is not in a valid format.");
+                            throw new FluentException(string.Format("Document type alias '{0}' trying to remove is not in a valid format.", docType));
                         }
 
-                        if(DocTypes.Contains(docType))
+                        if (DocTypes.Contains(docType))
                         {
                             DocTypes.Remove(docType);
                         }
                         else
                         {
-                            throw new FluentException("The document type alias being removed is not listed.");
+                            throw new FluentException(string.Format("The document type alias '{0}' being removed is not listed.", docType));
                         }
                     }
                     else
                     {
-                        throw new FluentException("Cannot remove an empty doc type from XPath Filter list.  The document type alias MUST be specified.");
+                        throw new FluentException("Cannot remove an empty doc type from XPath Filter list. The document type alias MUST be specified.");
                     }
                 }
             }
-            catch(FluentException)
+            catch (FluentException)
             {
                 throw;
             }
-            catch(Exception exception)
+            catch (Exception exception)
             {
                 throw new FluentException("Error removing document type to XPath filter.", exception);
             }

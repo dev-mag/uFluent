@@ -42,7 +42,7 @@ namespace uFluent
         public IDataType SetControlId(string propertyEditor)
         {
             var property = typeof(DataTypeDefinition).GetProperty("ControlId");
-            property.SetValue(DataTypeDefinition, new Guid(propertyEditor), BindingFlags.NonPublic | BindingFlags.Instance, null, null, null);
+            property.SetValue(DataTypeDefinition, propertyEditor, BindingFlags.NonPublic | BindingFlags.Instance, null, null, null);
 
             return this;
         }

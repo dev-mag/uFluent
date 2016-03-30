@@ -7,7 +7,7 @@ namespace uFluent.Migrate.Persistence
 {
     public class DatabaseUtil : IDatabaseUtil
     {
-        private static readonly ILog Log = LogManager.GetLogger(typeof (DatabaseUtil));
+        private static readonly ILog Log = LogManager.GetLogger(typeof(DatabaseUtil));
 
         public void FlagMigrationAsStarted(IUmbracoMigration migration)
         {
@@ -34,8 +34,10 @@ namespace uFluent.Migrate.Persistence
             }
         }
 
-        public bool PreviousMigrationsHaveFinishedCleanly()
+        public bool PreviousMigrationsHaveFinishedCleanly(out MigrationHistory previousMigration)
         {
+            previousMigration = null;
+
             try
             {
                 UmbracoDatabase.OpenSharedConnection();
@@ -44,6 +46,9 @@ namespace uFluent.Migrate.Persistence
                 {
                     var result = UmbracoDatabase.FirstOrDefault<MigrationHistory>("WHERE Completed = 0");
                     var previousMigrationsHaveFinishedCleanly = result == null;
+
+                    if (!previousMigrationsHaveFinishedCleanly)
+                        previousMigration = result;
 
                     transaction.Complete();
                     return previousMigrationsHaveFinishedCleanly;
@@ -65,7 +70,7 @@ namespace uFluent.Migrate.Persistence
 
                 using (var transaction = GetTransaction())
                 {
-                    var migrationHistory = UmbracoDatabase.FirstOrDefault<MigrationHistory>("WHERE Name = @Name", new {Name = migrationName });
+                    var migrationHistory = UmbracoDatabase.FirstOrDefault<MigrationHistory>("WHERE Name = @Name", new { Name = migrationName });
                     var hasMigrationExecuted = migrationHistory != null;
 
                     Log.Debug(string.Format("HasMigrationExecuted for {0} is {1}", migrationName, hasMigrationExecuted));
