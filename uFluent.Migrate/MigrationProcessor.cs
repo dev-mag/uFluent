@@ -30,9 +30,11 @@ namespace uFluent.Migrate
                 return;
             }
 
-            if (!_databaseUtil.PreviousMigrationsHaveFinishedCleanly())
+            MigrationHistory previouMigration;
+
+            if (!_databaseUtil.PreviousMigrationsHaveFinishedCleanly(out previouMigration))
             {
-                Log.Error("Previous migration did not finish cleanly, manual intervention required!");
+                Log.Error(string.Format("Previous migration '{0}' at '{1}' did not finish cleanly, manual intervention required!", previouMigration.Name, previouMigration.Id));
                 return;
             }
 
