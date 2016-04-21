@@ -80,10 +80,10 @@ namespace uFluent
             }
 
             var type = typeof(UmbracoTemplateDef);
-            var alias = type.GetProperty("MasterTemplateAlias", BindingFlags.NonPublic | BindingFlags.Instance);
+            var alias = type.GetProperty("MasterTemplateAlias");
             alias.SetValue(UmbracoTemplate, masterTemplate.Alias, null);
 
-            var id = type.GetProperty("MasterTemplateId", BindingFlags.NonPublic | BindingFlags.Instance);
+            var id = type.GetProperty("MasterTemplateId");
             var templateId = masterTemplate.UmbracoTemplate.Id;
             id.SetValue(UmbracoTemplate, new Lazy<int>(() => templateId), null);
 
@@ -97,10 +97,10 @@ namespace uFluent
         public Template ClearMasterTemplate()
         {
             var type = typeof(UmbracoTemplateDef);
-            var alias = type.GetProperty("MasterTemplateAlias", BindingFlags.NonPublic | BindingFlags.Instance);
+            var alias = type.GetProperty("MasterTemplateAlias");
             alias.SetValue(UmbracoTemplate, null, null);
 
-            var id = type.GetProperty("MasterTemplateId", BindingFlags.NonPublic | BindingFlags.Instance);
+            var id = type.GetProperty("MasterTemplateId");
             id.SetValue(UmbracoTemplate, null, null);
 
             return this;
