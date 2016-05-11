@@ -19,9 +19,9 @@
 
         // Exception messages
         public const string DocTypeBeingAddedAlreadyExists = "The document type alias being added already exists.";
-        public const string DocTypeBeingAddedIsEmptyOrNull = "Cannot add an empty doc type to XPath Filter list.  The document type alias MUST be specified.";
+        public const string DocTypeBeingAddedIsEmptyOrNull = "Cannot add an empty doc type to XPath Filter list. The document type alias MUST be specified.";
         public const string DocTypeBeingRemovedDoesntExist = "The document type alias being removed is not listed.";
-        public const string DocTypeBeingRemovedIsEmptyOrNull = "Cannot remove an empty doc type from XPath Filter list.  The document type alias MUST be specified.";
+        public const string DocTypeBeingRemovedIsEmptyOrNull = "Cannot remove an empty doc type from XPath Filter list. The document type alias MUST be specified.";
         public const string AddDocTypeWithSpecialCharacterExceptionMessage = "Document type alias trying to add is not in a valid format.";
         public const string RemoveDocTypeWithSpecialCharacterExceptionMessage = "Document type alias trying to remove is not in a valid format.";
     }

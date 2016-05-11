@@ -23,7 +23,7 @@ namespace uFluent.Migrate.Persistence
             try
             {
                 database.OpenSharedConnection();
-
+                
                 if (database.TableExist("MigrationHistory"))
                 {
                     Log.Debug("MigrationHistory table already exists.");

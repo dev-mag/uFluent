@@ -48,7 +48,7 @@ namespace uFluent.Utils.XPathFilters
                     }
                     else
                     {
-                        throw new FluentException("Cannot add an empty doc type to XPath Filter list.  The document type alias MUST be specified.");
+                        throw new FluentException("Cannot add an empty doc type to XPath Filter list. The document type alias MUST be specified.");
                     }
                 }
             }

@@ -19,9 +19,13 @@ namespace uFluent.Tests.Unit.Utils.XPathFilters
         [Test]
         public void GivenDocTypeWithSpecialCharacter_WhenIRemoveFromXPathFilterWithOneExistingDocType_ThenExceptionIsThrown()
         {
+            var alias = "Current$Page";
+
+            var expectedMessage = string.Format("Document type alias '{0}' trying to remove is not in a valid format.", alias);
+
             var docTypeXPathFilter = new DocTypeListXPath("Homepage");
-            Action a = () => docTypeXPathFilter.Remove("Current$Page");
-            a.ShouldThrow<FluentException>().And.Message.Should().Be(DocTypeListXPathTestsConsts.RemoveDocTypeWithSpecialCharacterExceptionMessage);
+            Action a = () => docTypeXPathFilter.Remove(alias);
+            a.ShouldThrow<FluentException>().And.Message.Should().Be(expectedMessage);
         }
 
         [Test]
@@ -259,9 +263,13 @@ namespace uFluent.Tests.Unit.Utils.XPathFilters
         [Test]
         public void WhenTryRemoveTheSameDocTypeAtOnce_ThenFluentExceptionIsThrownWithMessageThatDocTypeDoesntExist()
         {
-            var docTypeListXPath = new DocTypeListXPath();
-            Action a = () => docTypeListXPath.Remove("Homepage", "Homepage");
-            a.ShouldThrow<FluentException>().And.Message.Should().Be(DocTypeListXPathTestsConsts.DocTypeBeingRemovedDoesntExist);
+            var alias = "Homepage";
+
+            var expectedMessage = string.Format("The document type alias '{0}' being removed is not listed.", alias);
+
+            var docTypeListXPath = new DocTypeListXPath("Homepage");
+            Action a = () => docTypeListXPath.Remove(alias, alias);
+            a.ShouldThrow<FluentException>().And.Message.Should().Be(expectedMessage);
         }
 
         [Test]
@@ -283,9 +291,13 @@ namespace uFluent.Tests.Unit.Utils.XPathFilters
         [Test]
         public void WhenTryToRemoveDocTypeThatDoesntExistInFilter_ThenFluentExceptionIsRaised()
         {
+            var alias = "RandomDocType";
+
+            var expectedMessage = string.Format("The document type alias '{0}' being removed is not listed.", alias);
+
             var docTypeListXPath = new DocTypeListXPath(DocTypeListXPathTestsConsts.TwoDocTypeDocListXPath);
-            Action a = () => docTypeListXPath.Remove("RandomDocType");
-            a.ShouldThrow<FluentException>().And.Message.Should().Be(DocTypeListXPathTestsConsts.DocTypeBeingRemovedDoesntExist);
+            Action a = () => docTypeListXPath.Remove(alias);
+            a.ShouldThrow<FluentException>().And.Message.Should().Be(expectedMessage);
         }
     }
 }
