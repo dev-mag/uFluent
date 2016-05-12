@@ -8,7 +8,7 @@
         <description>Fluent API to abstract from Umbraco's services.</description>
         <dependencies>
             <group>
-                <dependency id="UmbracoCms.Core" version="7.2" />
+                <dependency id="UmbracoCms.Core" version="7.4.2" />
             </group>
         </dependencies>
     </metadata>
