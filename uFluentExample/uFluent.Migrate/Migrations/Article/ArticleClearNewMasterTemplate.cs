@@ -7,8 +7,6 @@ namespace uFluentExample.uFluent.Migrate.Migrations
     {
         public void Migrate()
         {
-            var tst = Template.Get("Homepage");
-
             var template = Template.Get("NewArticleTemplate");
             template.ClearMasterTemplate();
             template.Save();
