@@ -382,6 +382,8 @@
     <Compile Include="uFluent.Migrate\CustomDataTypeConsts.cs" />
     <Compile Include="uFluent.Migrate\MigrationList.cs" />
     <Compile Include="uFluent.Migrate\Migrations\ArticleTagsGroupCreateDataType.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\Article\ArticleClearNewMasterTemplate.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\Article\ArticleCreateNewMasterTemplate.cs" />
     <Compile Include="uFluent.Migrate\Migrations\Article\ArticleCreateTemplateAndDocType.cs" />
     <Compile Include="uFluent.Migrate\Migrations\Category\CategoryCreateTemplateAndDocType.cs" />
     <Compile Include="uFluent.Migrate\Migrations\DocumentTypeSetIcons.cs" />

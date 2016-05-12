@@ -101,7 +101,7 @@ namespace uFluent
             alias.SetValue(UmbracoTemplate, null, null);
 
             var id = type.GetProperty("MasterTemplateId");
-            id.SetValue(UmbracoTemplate, null, null);
+            id.SetValue(UmbracoTemplate, new Lazy<int>(() => -1), null);
 
             return this;
         }

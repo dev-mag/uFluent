@@ -24,7 +24,9 @@ namespace uFluentExample.uFluent.Migrate
                     new HomepagePickerCreateDataType(),
                     new UsefulLinksPickerChangeDbTypeToNvarchar(),
                     new UsefulLinksPickerChangeDbTypeToNtext(),
-                    new ArticleTagsGroupCreateDataType()
+                    new ArticleTagsGroupCreateDataType(),
+                    new ArticleCreateNewMasterTemplate()
+                    ,new ArticleClearNewMasterTemplate()
                 };
             }
         }
