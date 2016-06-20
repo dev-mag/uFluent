@@ -25,8 +25,13 @@ namespace uFluentExample.uFluent.Migrate
                     new UsefulLinksPickerChangeDbTypeToNvarchar(),
                     new UsefulLinksPickerChangeDbTypeToNtext(),
                     new ArticleTagsGroupCreateDataType(),
-                    new ArticleCreateNewMasterTemplate()
-                    ,new ArticleClearNewMasterTemplate()
+                    new ArticleCreateNewMasterTemplate(),
+                    new ArticleClearNewMasterTemplate(),
+                    new CategoryMoveImageUrlBeforeAltText(),
+                    new DummyPageWithBlankTextProperties(),
+                    new DummyDocTypeMoveProperty1BeforeProperty4(),
+                    new DummyDocTypeSetPropertyPositionMinus1(),
+                    new DummyDocTypeMoveProperty2AfterProperty4()
                 };
             }
         }

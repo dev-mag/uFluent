@@ -381,8 +381,14 @@
     <Compile Include="uFluent.Migrate\Migrations\Article\ArticleClearNewMasterTemplate.cs" />
     <Compile Include="uFluent.Migrate\Migrations\Article\ArticleCreateNewMasterTemplate.cs" />
     <Compile Include="uFluent.Migrate\Migrations\Article\ArticleCreateTemplateAndDocType.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\Article\ArticleMoveContentAfterTitle.cs" />
     <Compile Include="uFluent.Migrate\Migrations\Category\CategoryCreateTemplateAndDocType.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\Category\CategoryMoveImageUrlBeforeAltText.cs" />
     <Compile Include="uFluent.Migrate\Migrations\DocumentTypeSetIcons.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\DummyDocTypeMoveProperty1BeforeProperty4.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\DummyDocTypeMoveProperty2AfterProperty4.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\DummyDocTypeSetPropertyPositionMinus1.cs" />
+    <Compile Include="uFluent.Migrate\Migrations\DummyPageWithBlankTextProperties.cs" />
     <Compile Include="uFluent.Migrate\Migrations\HomepagePicker\HomepagePickerCreateDataType.cs" />
     <Compile Include="uFluent.Migrate\Migrations\Homepage\HomepageCreateTemplateAndDocType.cs" />
     <Compile Include="uFluent.Migrate\Migrations\SubCategoryCreateDataType.cs" />
