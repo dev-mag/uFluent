@@ -361,6 +361,93 @@ namespace uFluent
         }
 
         /// <summary>
+        /// Move a property after another property
+        /// </summary>
+        /// <param name="propertyAlias">Property alias</param>
+        /// <param name="otherPropertyAlias">Move After Property Alias</param>
+        /// <returns></returns>
+        public DocumentType SetPropertyAfter(string propertyAlias, string otherPropertyAlias)
+        {
+            var propertyType = UmbracoContentType.PropertyTypes.SingleOrDefault(x => x.Alias.Equals(propertyAlias, StringComparison.OrdinalIgnoreCase));
+            if(propertyType == null)
+            {
+                throw new FluentException(string.Format("Could not find property with alias `{0}`", propertyAlias));
+            }
+
+            var otherPropertyType = UmbracoContentType.PropertyTypes.SingleOrDefault(x => x.Alias.Equals(otherPropertyAlias, StringComparison.OrdinalIgnoreCase));
+            if(otherPropertyType == null)
+            {
+                throw new FluentException(string.Format("Could not find property with alias `{0}`", otherPropertyAlias));
+            }
+            SetPropertyPosition(propertyType, otherPropertyType.SortOrder + 1);
+            return this;
+        }
+
+        /// <summary>
+        /// Move a property before another property
+        /// </summary>
+        /// <param name="propertyAlias">Property alias</param>
+        /// <param name="otherPropertyAlias">Move Before Property Alias</param>
+        /// <returns></returns>
+        public DocumentType SetPropertyBefore(string propertyAlias, string otherPropertyAlias)
+        {
+            var propertyType = UmbracoContentType.PropertyTypes.SingleOrDefault(x => x.Alias.Equals(propertyAlias, StringComparison.OrdinalIgnoreCase));
+            if(propertyType == null)
+            {
+                throw new FluentException(string.Format("Could not find property with alias `{0}`", propertyAlias));
+            }
+
+            var otherPropertyType = UmbracoContentType.PropertyTypes.SingleOrDefault(x => x.Alias.Equals(otherPropertyAlias, StringComparison.OrdinalIgnoreCase));
+            if(otherPropertyType == null)
+            {
+                throw new FluentException(string.Format("Could not find property with alias `{0}`", otherPropertyAlias));
+            }
+
+            SetPropertyPosition(propertyType, otherPropertyType.SortOrder - 1);
+            return this;
+        }
+
+        /// <summary>
+        /// Set the sort order of a property
+        /// </summary>
+        /// <param name="propertyAlias">Property alias</param>
+        /// <param name="sortOrder">Position to move the property to</param>
+        /// <param name="updateOtherProperties">Update the sort order of other properties to fit this property in</param>
+        /// <returns></returns>
+        public DocumentType SetPropertySortOrder(string propertyAlias, int sortOrder, bool updateOtherProperties = true)
+        {
+            var propertyType = UmbracoContentType.PropertyTypes.SingleOrDefault(x => x.Alias.Equals(propertyAlias, StringComparison.OrdinalIgnoreCase));
+            if(propertyType == null)
+            {
+                throw new FluentException(string.Format("Could not find property with alias `{0}`", propertyAlias));
+            }
+
+            if(updateOtherProperties)
+                SetPropertyPosition(propertyType, sortOrder);
+            else
+                propertyType.SortOrder = sortOrder;
+
+            return this;
+        }
+
+        private void SetPropertyPosition(PropertyType propertyType, int newPosition)
+        {
+            int oldPosition = propertyType.SortOrder;
+
+            foreach(var update in UmbracoContentType.PropertyTypes.Where(pt => pt.SortOrder > oldPosition && pt.SortOrder <= newPosition))
+            {
+                update.SortOrder -= 1;
+            }
+
+            foreach(var update in UmbracoContentType.PropertyTypes.Where(pt => pt.SortOrder >= newPosition && pt.SortOrder < oldPosition))
+            {
+                update.SortOrder += 1;
+            }
+
+            propertyType.SortOrder = newPosition;
+        }
+
+        /// <summary>
         /// Remove the ability for content nodes of a specific document type to be created as children
         /// under content nodes of this document type.
         /// </summary>

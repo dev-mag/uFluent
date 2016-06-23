@@ -23,6 +23,7 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <NuGetPackageImportStamp>4708c6d8</NuGetPackageImportStamp>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -2734,7 +2735,9 @@
     <Content Include="umbraco_client\Ui\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
     <Content Include="umbraco_client\Ui\ui-lightness\images\ui-icons_ffffff_256x240.png" />
     <Content Include="umbraco_client\Ui\ui-lightness\jquery-ui.custom.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\ApplicationStartupHandler.cs" />
@@ -2750,6 +2753,10 @@
     <Compile Include="ufluent.Migrate\Migrations\Article\ArticleCreateTemplateAndDocType.cs" />
     <Compile Include="ufluent.Migrate\Migrations\Category\CategoryCreateTemplateAndDocType.cs" />
     <Compile Include="ufluent.Migrate\Migrations\DocumentTypeSetIcons.cs" />
+    <Compile Include="ufluent.Migrate\Migrations\DummyDocTypeMoveProperty1BeforeProperty4.cs" />
+    <Compile Include="ufluent.Migrate\Migrations\DummyDocTypeMoveProperty2AfterProperty4.cs" />
+    <Compile Include="ufluent.Migrate\Migrations\DummyDocTypeSetPropertyPositionMinus1.cs" />
+    <Compile Include="ufluent.Migrate\Migrations\DummyPageWithBlankTextProperties.cs" />
     <Compile Include="ufluent.Migrate\Migrations\HomepagePicker\HomepagePickerCreateDataType.cs" />
     <Compile Include="ufluent.Migrate\Migrations\Homepage\HomepageAddHyperlinkImage.cs" />
     <Compile Include="ufluent.Migrate\Migrations\Homepage\HomepageCreateTemplateAndDocType.cs" />

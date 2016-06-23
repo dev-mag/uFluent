@@ -1,0 +1,14 @@
+﻿2016-06-22 07:02:11,668 [9] INFO  umbraco.BusinessLogic.Log - [P9872/T1/D2] Log scrubbed.  Removed all items older than 2016-04-23 07:02:09
+2016-06-22 08:01:50,411 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [LogScrubber] Terminating
+2016-06-22 08:01:50,411 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [LogScrubber] Waiting for tasks to complete
+2016-06-22 08:01:50,411 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [ScheduledPublishing] Terminating
+2016-06-22 08:01:50,411 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [ScheduledPublishing] Waiting for tasks to complete
+2016-06-22 08:01:50,412 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [LogScrubber] Tasks completed, terminated
+2016-06-22 08:01:50,412 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [ScheduledPublishing] Tasks completed, terminated
+2016-06-22 08:01:51,996 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [ScheduledTasks] Terminating
+2016-06-22 08:01:51,996 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [ScheduledTasks] Waiting for tasks to complete
+2016-06-22 08:01:51,996 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [KeepAlive] Terminating
+2016-06-22 08:01:51,996 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [KeepAlive] Waiting for tasks to complete
+2016-06-22 08:01:51,996 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [KeepAlive] Tasks completed, terminated
+2016-06-22 08:01:51,996 [9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [P9872/T1/D2] [ScheduledTasks] Tasks completed, terminated
+2016-06-22 08:02:22,003 [9] INFO  Umbraco.Core.UmbracoApplicationBase - [P9872/T1/D2] Application shutdown. Reason: ConfigurationChange
