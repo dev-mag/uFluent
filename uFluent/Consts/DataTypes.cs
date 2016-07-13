@@ -6,7 +6,7 @@ namespace uFluent.Consts
     {
         public const string Label = "Label";
         public const string Upload = "Upload";
-        public const string TextboxMultiple = "Textbox multiple";
+        public const string TextArea = "Textarea";
         public const string TextString = "Textstring";
         public const string RichtextEditor = "Richtext Editor";
         public const string Numeric = "Numeric";
