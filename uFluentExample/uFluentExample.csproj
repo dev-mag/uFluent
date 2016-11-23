@@ -23,6 +23,7 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <NuGetPackageImportStamp>19e346c8</NuGetPackageImportStamp>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -2748,6 +2749,7 @@
     <Compile Include="ufluent.Migrate\Migrations\HomepagePicker\HomepagePickerCreateDataType.cs" />
     <Compile Include="ufluent.Migrate\Migrations\Homepage\HomepageCreateTemplateAndDocType.cs" />
     <Compile Include="ufluent.Migrate\Migrations\SubCategoryCreateDataType.cs" />
+    <Compile Include="ufluent.Migrate\Migrations\TestAddLanguage.cs" />
     <Compile Include="ufluent.Migrate\Migrations\UsefulLinksPicker\UsefulLinksPickerAddHomepageAndCategoryDocTypes.cs" />
     <Compile Include="ufluent.Migrate\Migrations\UsefulLinksPicker\UsefulLinksPickerChangeDbTypeToNtext.cs" />
     <Compile Include="ufluent.Migrate\Migrations\UsefulLinksPicker\UsefulLinksPickerChangeDbTypeToNvarchar.cs" />
@@ -2954,7 +2956,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>53762</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:81/</IISUrl>
+          <IISUrl>http://localhost:85/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
